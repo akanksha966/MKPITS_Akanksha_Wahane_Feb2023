@@ -1,0 +1,47 @@
+<html>
+
+
+<body>
+
+Enter radius:<input type="text" id="radius"/><br><br>
+
+<input type="button" value="area" onclick="areanumber();"/>
+<input type="button" value="circumfereance" onclick="cirnumber();"/><br>
+
+
+<br><span id="circle">area : </span>
+<br><span id="rese">circum : </span>
+</body>
+
+<script language="javascript">
+ 
+    function areanumber()
+
+ 
+
+
+ {
+
+
+var radius,area;
+radius=parseInt(document.getElementById("radius").value);
+
+area=3.14*radius*radius
+document.getElementById("circle").innerHTML="Total area " +area;
+}
+
+function cirnumber()
+
+{
+var radius,area;
+radius=parseInt(document.getElementById("radius").value);
+
+
+circumference=2*3.14*radius
+
+document.getElementById("rese").innerHTML="Total Circumference " +circumference;
+}
+             
+
+ </script>
+</html>          

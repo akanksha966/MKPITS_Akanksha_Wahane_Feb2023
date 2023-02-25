@@ -1,0 +1,59 @@
+<h1 align=center>MKPITS</h1>
+
+<hr>
+
+
+enter number1:<input type="text" id="num1"/><br><br>
+
+enter number2:<input type="text" id="num2"/><br><br>
+
+
+<input type="button" value="mult" onclick="multnumber();" />
+<input type="button" value="div" onclick="divnumber();" />
+
+
+</body>
+
+
+
+
+
+
+
+
+
+<script language="javascript">
+
+    function multnumber()
+
+    {
+
+
+           var number1,number2,result;
+              number1=parseInt(document.getElementById("num1").value);
+               number2=parseInt(document.getElementById("num2").value);
+
+               result=number1*number2;
+                  alert("multiplication is"+result);
+}
+
+
+
+
+function divnumber()
+
+    {
+
+
+           var number1,number2,result;
+              number1=parseInt(document.getElementById("num1").value);
+               number2=parseInt(document.getElementById("num2").value);
+
+               result=number1/number2;
+                  alert("division no is"+result);
+}
+
+
+
+</script>
+</html>

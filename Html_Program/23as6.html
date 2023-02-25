@@ -1,0 +1,84 @@
+<html>
+
+
+<body>
+
+
+Enter your account no:<input type="text" id="account"/><br><br>
+
+Enter initial balance:<input type="text" id="balance"/><br><br>
+
+Enter your amount:<input type="text" id="amount"/><br><br>
+
+<input type="button" value="deposit" onclick="totaldeposit();"/>
+
+<input type="button" value="withdraw" onclick="totalwithdraw();"/><br>
+<span id="total">Balance In : </span><br>
+
+
+
+</body>
+
+
+
+
+<script language="javascript">
+
+ 
+    function totaldeposit()
+{
+
+
+
+
+var account,initial_balance,amount,add,add2;
+
+account=parseInt(document.getElementById("account").value);
+
+initial_balance=parseInt(document.getElementById("balance").value);
+
+amount=parseInt(document.getElementById("amount").value);
+
+
+
+add=initial_balance+amount
+
+
+document.getElementById("total").innerHTML="Deposit Amount " +add;
+
+
+}
+
+
+function totalwithdraw()
+{
+
+
+
+
+var account,initial_balance,amount,add2;
+
+account=parseInt(document.getElementById("account").value);
+
+initial_balance=parseInt(document.getElementById("balance").value);
+
+amount=parseInt(document.getElementById("amount").value);
+
+
+
+add2=initial_balance-amount
+
+
+document.getElementById("total").innerHTML="Deposit Amount " +add2;
+
+
+}
+
+
+
+
+</script>
+
+
+
+</html>

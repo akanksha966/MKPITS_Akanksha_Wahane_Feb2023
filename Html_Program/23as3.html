@@ -1,0 +1,59 @@
+<html>
+
+
+<body>
+
+Enter total marks in math:<input type="text" id="math"/><br><br>
+
+Enter total marks in physics:<input type="text" id="phy"/><br><br>
+
+Enter total marks in chemistry:<input type="text" id="che"/><br><br>
+
+<input type="button" value="Result" onclick="totalnumber();"/><br>
+
+
+
+<span id="total">Total Marks : </span><br>
+<span id="perc">percentage: </span><br>
+</body>
+
+
+
+<script language="javascript">
+
+ 
+    function totalnumber()
+{
+
+
+
+
+var math,phy,chemistry,final_total,percentage;
+
+math=parseInt(document.getElementById("math").value);
+physics=parseInt(document.getElementById("phy").value);
+chemistry=parseInt(document.getElementById("che").value);
+
+final_total=math+physics+chemistry
+
+document.getElementById("total").innerHTML="Total marks " +final_total;
+
+
+percentage=final_total/500*100
+
+document.getElementById("perc").innerHTML="percentages " +percentage;
+
+
+
+}
+
+
+
+</script>
+</html>
+
+
+ 
+
+
+ 
