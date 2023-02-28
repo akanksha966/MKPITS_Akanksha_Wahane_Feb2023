@@ -1,0 +1,20 @@
+<html>
+enter number:<input type="text"name="n1"/><br>
+<input type="button" value="submit" onclick="check(document.getElementsByName('n1')[0].value);"/>
+
+</body>
+<script>
+
+function check(num)
+{
+if(isNaN(num))
+{
+alert("not a valid number");
+}
+else
+{
+alert("valid number");
+}
+}
+</script>
+</html>
