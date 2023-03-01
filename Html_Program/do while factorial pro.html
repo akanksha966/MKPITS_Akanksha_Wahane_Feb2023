@@ -1,0 +1,29 @@
+<html>
+<body>
+<form name="f2" style="width:300;height:300;padding:10px;text-align:left;border:3px solid red;"/>
+
+Enter Number:<input type="text"id="n1"/><br><br>
+<input type="button"value="factorial" onclick="factorial();"/>
+
+</form>
+</body>
+
+<script>
+function factorial()
+  {
+
+
+ var num;
+var fact=1;
+ num=parseInt(document.getElementById("n1").value);
+    do
+{
+fact=num*fact;
+num=num-1;
+}
+while(num>0);
+document.write("factorial of  is "+fact);
+}
+</script>
+
+</html>
