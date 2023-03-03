@@ -1,0 +1,21 @@
+<html>
+
+Enter number:<input type="text"id="n1" />
+
+<input type="button"value="submit" onclick="reversenumber();" />
+<script>
+function reversenumber()
+{
+
+var num=(document.getElementById("n1").value);
+
+var digit1=num%10;
+var digit2=Math.floor(num/10)%10;
+
+var digit3=Math.floor(num/100)
+var revnumber=(digit1*100)+(digit2*10)+(digit3);
+document.write("reverse number " +revnumber);
+
+}
+</script>
+</html>
