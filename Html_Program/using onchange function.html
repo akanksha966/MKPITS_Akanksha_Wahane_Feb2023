@@ -1,0 +1,12 @@
+<form>
+Enter Name:<input type="text" id="t1" onchange="display();" /><br><br>
+
+<input type="button" value="Ok" />
+</form>
+<script>
+function display()
+{
+var name=document.getElementById("t1").value;
+document.getElementById("t1").value=name.toUpperCase();
+}
+</script>

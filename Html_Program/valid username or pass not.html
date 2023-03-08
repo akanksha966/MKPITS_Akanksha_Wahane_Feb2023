@@ -1,0 +1,22 @@
+<html>
+username:<input type="text" id="un" /><br><br>
+password:<input type="password" id="up" /><br><br>
+
+<input type="button" value="submit" onclick="checkdetail();" />
+<script>
+
+function checkdetail()
+{
+var username=(document.getElementById("un").value);
+var password=(document.getElementById("up").value);
+
+if(username=="" || password=="")
+{
+ alert("pls enter valid username or password");
+}
+else
+{
+alert("welcome "+username);
+}
+}
+</script>
