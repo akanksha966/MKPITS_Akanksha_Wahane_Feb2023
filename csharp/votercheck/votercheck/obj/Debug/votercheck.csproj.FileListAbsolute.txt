@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\votercheck\votercheck\bin\Debug\votercheck.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\votercheck\votercheck\bin\Debug\votercheck.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\votercheck\votercheck\bin\Debug\votercheck.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\votercheck\votercheck\obj\Debug\votercheck.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\votercheck\votercheck\obj\Debug\votercheck.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\votercheck\votercheck\obj\Debug\votercheck.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\votercheck\votercheck\obj\Debug\votercheck.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\votercheck\votercheck\obj\Debug\votercheck.pdb
