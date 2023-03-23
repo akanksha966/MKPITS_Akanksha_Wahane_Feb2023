@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method with parameter\method with parameter\bin\Debug\method with parameter.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method with parameter\method with parameter\bin\Debug\method with parameter.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method with parameter\method with parameter\bin\Debug\method with parameter.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method with parameter\method with parameter\obj\Debug\method with parameter.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method with parameter\method with parameter\obj\Debug\method with parameter.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method with parameter\method with parameter\obj\Debug\method with parameter.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method with parameter\method with parameter\obj\Debug\method with parameter.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method with parameter\method with parameter\obj\Debug\method with parameter.pdb

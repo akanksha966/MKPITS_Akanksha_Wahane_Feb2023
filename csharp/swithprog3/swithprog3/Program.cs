@@ -8,7 +8,7 @@ namespace swithprog3
         static void Main()
         {
             char op;
-            string name;
+            
             Console.WriteLine("enter character");
             op = Convert.ToChar(Console.ReadLine());
             switch (op)

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calling me from anothe method", "calling me from anothe method\calling me from anothe method.csproj", "{12949100-F626-42CE-A06F-5126578C9CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12949100-F626-42CE-A06F-5126578C9CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12949100-F626-42CE-A06F-5126578C9CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12949100-F626-42CE-A06F-5126578C9CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12949100-F626-42CE-A06F-5126578C9CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDC9AF6C-CD84-44B5-8C51-14E56BDD0B78}
+	EndGlobalSection
+EndGlobal
