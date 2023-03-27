@@ -1,0 +1,11 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\bin\Debug\square windows.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\bin\Debug\square windows.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\bin\Debug\square windows.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\obj\Debug\square windows.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\obj\Debug\square windows.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\obj\Debug\square_windows.Form1.resources
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\obj\Debug\square_windows.Properties.Resources.resources
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\obj\Debug\square windows.csproj.GenerateResource.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\obj\Debug\square windows.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\obj\Debug\square windows.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square windows\square windows\obj\Debug\square windows.pdb
