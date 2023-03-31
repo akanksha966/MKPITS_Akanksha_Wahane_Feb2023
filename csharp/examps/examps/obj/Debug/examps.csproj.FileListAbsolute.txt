@@ -1,0 +1,11 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\bin\Debug\examps.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\bin\Debug\examps.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\bin\Debug\examps.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\obj\Debug\examps.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\obj\Debug\examps.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\obj\Debug\examps.Form1.resources
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\obj\Debug\examps.Properties.Resources.resources
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\obj\Debug\examps.csproj.GenerateResource.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\obj\Debug\examps.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\obj\Debug\examps.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\examps\examps\obj\Debug\examps.pdb

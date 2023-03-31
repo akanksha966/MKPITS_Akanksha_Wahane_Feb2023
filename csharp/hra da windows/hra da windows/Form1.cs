@@ -21,7 +21,7 @@ namespace hra_da_windows
         {
             string name;
             int basic;
-            float hrsalary,dasalary,tsalary,total;
+            float hrsalary,dasalary,tsalary;
             name=Convert.ToString(textBox1.Text);
             basic = Convert.ToInt32(textBox2.Text);
             hrsalary = basic * 0.35f;
