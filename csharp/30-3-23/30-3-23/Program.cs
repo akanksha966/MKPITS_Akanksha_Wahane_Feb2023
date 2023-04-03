@@ -26,13 +26,13 @@ namespace _30_3_23
                 {
                     for (int j = i; j < name.Length; j++)
                     {
-                        if (name[i] != name[j])
+                        if (name[i] == name[j])
                         {
 
                         }
 
 
-                        Console.WriteLine(name[1]);
+                        Console.WriteLine(name[i]);
                         break;
 
 

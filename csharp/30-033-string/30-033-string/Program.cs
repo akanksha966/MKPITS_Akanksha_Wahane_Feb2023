@@ -24,41 +24,43 @@ namespace _30_3_23
 
                 for (int i = 0; i < name.Length; i++)
                 {
-                    
-                        if (name[i]==0)
-                        {
+
+                    if (name[i] == 0)
+                    {
 
 
-                        }
-                    Console.WriteLine("string is " + name[1]);
-                    Console.ReadLine();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    }
+                    Console.WriteLine("string is " + name[i]);
                 }
+                Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
             }
 
-            }
+        }
         }
     }
 
