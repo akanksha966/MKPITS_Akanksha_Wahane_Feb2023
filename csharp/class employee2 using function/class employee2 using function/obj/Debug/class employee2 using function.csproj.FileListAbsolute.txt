@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\class employee2 using function\class employee2 using function\bin\Debug\class employee2 using function.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\class employee2 using function\class employee2 using function\bin\Debug\class employee2 using function.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\class employee2 using function\class employee2 using function\bin\Debug\class employee2 using function.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\class employee2 using function\class employee2 using function\obj\Debug\class employee2 using function.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\class employee2 using function\class employee2 using function\obj\Debug\class employee2 using function.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\class employee2 using function\class employee2 using function\obj\Debug\class employee2 using function.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\class employee2 using function\class employee2 using function\obj\Debug\class employee2 using function.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\class employee2 using function\class employee2 using function\obj\Debug\class employee2 using function.pdb
