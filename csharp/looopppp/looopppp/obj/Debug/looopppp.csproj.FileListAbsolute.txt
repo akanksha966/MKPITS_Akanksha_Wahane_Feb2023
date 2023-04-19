@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\looopppp\looopppp\bin\Debug\looopppp.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\looopppp\looopppp\bin\Debug\looopppp.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\looopppp\looopppp\bin\Debug\looopppp.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\looopppp\looopppp\obj\Debug\looopppp.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\looopppp\looopppp\obj\Debug\looopppp.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\looopppp\looopppp\obj\Debug\looopppp.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\looopppp\looopppp\obj\Debug\looopppp.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\looopppp\looopppp\obj\Debug\looopppp.pdb

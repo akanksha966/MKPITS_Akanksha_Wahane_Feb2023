@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\byte\byte\bin\Debug\@byte.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\byte\byte\bin\Debug\@byte.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\byte\byte\bin\Debug\@byte.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\byte\byte\obj\Debug\byte.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\byte\byte\obj\Debug\byte.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\byte\byte\obj\Debug\byte.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\byte\byte\obj\Debug\@byte.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\byte\byte\obj\Debug\@byte.pdb

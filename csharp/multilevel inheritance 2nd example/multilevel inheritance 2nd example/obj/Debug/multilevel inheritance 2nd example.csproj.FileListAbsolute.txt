@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\multilevel inheritance 2nd example\multilevel inheritance 2nd example\bin\Debug\multilevel inheritance 2nd example.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\multilevel inheritance 2nd example\multilevel inheritance 2nd example\bin\Debug\multilevel inheritance 2nd example.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\multilevel inheritance 2nd example\multilevel inheritance 2nd example\bin\Debug\multilevel inheritance 2nd example.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\multilevel inheritance 2nd example\multilevel inheritance 2nd example\obj\Debug\multilevel inheritance 2nd example.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\multilevel inheritance 2nd example\multilevel inheritance 2nd example\obj\Debug\multilevel inheritance 2nd example.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\multilevel inheritance 2nd example\multilevel inheritance 2nd example\obj\Debug\multilevel inheritance 2nd example.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\multilevel inheritance 2nd example\multilevel inheritance 2nd example\obj\Debug\multilevel inheritance 2nd example.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\multilevel inheritance 2nd example\multilevel inheritance 2nd example\obj\Debug\multilevel inheritance 2nd example.pdb

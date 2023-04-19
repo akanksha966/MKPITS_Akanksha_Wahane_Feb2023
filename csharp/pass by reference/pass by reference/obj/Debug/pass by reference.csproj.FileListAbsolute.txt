@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\pass by reference\pass by reference\bin\Debug\pass by reference.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\pass by reference\pass by reference\bin\Debug\pass by reference.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\pass by reference\pass by reference\bin\Debug\pass by reference.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\pass by reference\pass by reference\obj\Debug\pass by reference.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\pass by reference\pass by reference\obj\Debug\pass by reference.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\pass by reference\pass by reference\obj\Debug\pass by reference.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\pass by reference\pass by reference\obj\Debug\pass by reference.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\pass by reference\pass by reference\obj\Debug\pass by reference.pdb
