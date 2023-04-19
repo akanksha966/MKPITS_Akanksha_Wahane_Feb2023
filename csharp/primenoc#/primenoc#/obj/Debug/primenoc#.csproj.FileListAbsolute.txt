@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\primenoc#\primenoc#\bin\Debug\primenoc#.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\primenoc#\primenoc#\bin\Debug\primenoc#.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\primenoc#\primenoc#\bin\Debug\primenoc#.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\primenoc#\primenoc#\obj\Debug\primenoc#.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\primenoc#\primenoc#\obj\Debug\primenoc#.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\primenoc#\primenoc#\obj\Debug\primenoc#.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\primenoc#\primenoc#\obj\Debug\primenoc#.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\primenoc#\primenoc#\obj\Debug\primenoc#.pdb

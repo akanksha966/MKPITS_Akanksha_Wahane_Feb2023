@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\bonus\bonus\bin\Debug\bonus.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\bonus\bonus\bin\Debug\bonus.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\bonus\bonus\bin\Debug\bonus.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\bonus\bonus\obj\Debug\bonus.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\bonus\bonus\obj\Debug\bonus.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\bonus\bonus\obj\Debug\bonus.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\bonus\bonus\obj\Debug\bonus.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\bonus\bonus\obj\Debug\bonus.pdb

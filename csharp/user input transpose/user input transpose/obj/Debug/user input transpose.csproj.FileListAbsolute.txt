@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\user input transpose\user input transpose\bin\Debug\user input transpose.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\user input transpose\user input transpose\bin\Debug\user input transpose.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\user input transpose\user input transpose\bin\Debug\user input transpose.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\user input transpose\user input transpose\obj\Debug\user input transpose.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\user input transpose\user input transpose\obj\Debug\user input transpose.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\user input transpose\user input transpose\obj\Debug\user input transpose.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\user input transpose\user input transpose\obj\Debug\user input transpose.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\user input transpose\user input transpose\obj\Debug\user input transpose.pdb

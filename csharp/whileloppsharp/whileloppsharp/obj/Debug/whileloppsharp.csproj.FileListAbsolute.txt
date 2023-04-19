@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\whileloppsharp\whileloppsharp\bin\Debug\whileloppsharp.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\whileloppsharp\whileloppsharp\bin\Debug\whileloppsharp.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\whileloppsharp\whileloppsharp\bin\Debug\whileloppsharp.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\whileloppsharp\whileloppsharp\obj\Debug\whileloppsharp.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\whileloppsharp\whileloppsharp\obj\Debug\whileloppsharp.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\whileloppsharp\whileloppsharp\obj\Debug\whileloppsharp.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\whileloppsharp\whileloppsharp\obj\Debug\whileloppsharp.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\whileloppsharp\whileloppsharp\obj\Debug\whileloppsharp.pdb

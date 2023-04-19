@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\float\float\bin\Debug\@float.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\float\float\bin\Debug\@float.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\float\float\bin\Debug\@float.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\float\float\obj\Debug\float.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\float\float\obj\Debug\float.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\float\float\obj\Debug\float.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\float\float\obj\Debug\@float.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\float\float\obj\Debug\@float.pdb

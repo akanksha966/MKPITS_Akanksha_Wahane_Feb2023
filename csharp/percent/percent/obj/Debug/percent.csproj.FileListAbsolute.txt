@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\percent\percent\bin\Debug\percent.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\percent\percent\bin\Debug\percent.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\percent\percent\bin\Debug\percent.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\percent\percent\obj\Debug\percent.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\percent\percent\obj\Debug\percent.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\percent\percent\obj\Debug\percent.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\percent\percent\obj\Debug\percent.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\percent\percent\obj\Debug\percent.pdb

@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findeven\findeven\bin\Debug\findeven.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findeven\findeven\bin\Debug\findeven.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findeven\findeven\bin\Debug\findeven.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findeven\findeven\obj\Debug\findeven.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findeven\findeven\obj\Debug\findeven.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findeven\findeven\obj\Debug\findeven.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findeven\findeven\obj\Debug\findeven.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findeven\findeven\obj\Debug\findeven.pdb
