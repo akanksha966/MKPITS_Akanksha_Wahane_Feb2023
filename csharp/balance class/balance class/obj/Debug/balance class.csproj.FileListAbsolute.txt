@@ -1,0 +1,11 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\bin\Debug\balance class.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\bin\Debug\balance class.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\bin\Debug\balance class.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\obj\Debug\balance class.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\obj\Debug\balance class.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\obj\Debug\balance_class.Form1.resources
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\obj\Debug\balance_class.Properties.Resources.resources
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\obj\Debug\balance class.csproj.GenerateResource.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\obj\Debug\balance class.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\obj\Debug\balance class.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\balance class\balance class\obj\Debug\balance class.pdb

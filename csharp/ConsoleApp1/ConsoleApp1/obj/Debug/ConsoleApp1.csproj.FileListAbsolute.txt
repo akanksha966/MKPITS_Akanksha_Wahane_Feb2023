@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

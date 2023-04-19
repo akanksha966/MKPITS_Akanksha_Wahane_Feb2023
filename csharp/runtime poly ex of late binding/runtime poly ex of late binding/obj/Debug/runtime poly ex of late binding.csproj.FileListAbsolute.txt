@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\runtime poly ex of late binding\runtime poly ex of late binding\bin\Debug\runtime poly ex of late binding.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\runtime poly ex of late binding\runtime poly ex of late binding\bin\Debug\runtime poly ex of late binding.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\runtime poly ex of late binding\runtime poly ex of late binding\bin\Debug\runtime poly ex of late binding.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\runtime poly ex of late binding\runtime poly ex of late binding\obj\Debug\runtime poly ex of late binding.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\runtime poly ex of late binding\runtime poly ex of late binding\obj\Debug\runtime poly ex of late binding.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\runtime poly ex of late binding\runtime poly ex of late binding\obj\Debug\runtime poly ex of late binding.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\runtime poly ex of late binding\runtime poly ex of late binding\obj\Debug\runtime poly ex of late binding.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\runtime poly ex of late binding\runtime poly ex of late binding\obj\Debug\runtime poly ex of late binding.pdb
