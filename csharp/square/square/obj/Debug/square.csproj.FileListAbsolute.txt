@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square\square\bin\Debug\square.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square\square\bin\Debug\square.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square\square\bin\Debug\square.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square\square\obj\Debug\square.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square\square\obj\Debug\square.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square\square\obj\Debug\square.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square\square\obj\Debug\square.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\square\square\obj\Debug\square.pdb

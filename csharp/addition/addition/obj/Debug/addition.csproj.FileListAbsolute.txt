@@ -1,0 +1,6 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\addition\addition\obj\Debug\addition.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\addition\addition\obj\Debug\addition.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\addition\addition\obj\Debug\addition.Form1.resources
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\addition\addition\obj\Debug\addition.Properties.Resources.resources
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\addition\addition\obj\Debug\addition.csproj.GenerateResource.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\addition\addition\obj\Debug\addition.csproj.CoreCompileInputs.cache

@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method using inheritance\method using inheritance\bin\Debug\method using inheritance.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method using inheritance\method using inheritance\bin\Debug\method using inheritance.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method using inheritance\method using inheritance\bin\Debug\method using inheritance.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method using inheritance\method using inheritance\obj\Debug\method using inheritance.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method using inheritance\method using inheritance\obj\Debug\method using inheritance.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method using inheritance\method using inheritance\obj\Debug\method using inheritance.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method using inheritance\method using inheritance\obj\Debug\method using inheritance.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\method using inheritance\method using inheritance\obj\Debug\method using inheritance.pdb

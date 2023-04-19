@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\discructor\discructor\bin\Debug\discructor.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\discructor\discructor\bin\Debug\discructor.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\discructor\discructor\bin\Debug\discructor.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\discructor\discructor\obj\Debug\discructor.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\discructor\discructor\obj\Debug\discructor.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\discructor\discructor\obj\Debug\discructor.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\discructor\discructor\obj\Debug\discructor.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\discructor\discructor\obj\Debug\discructor.pdb

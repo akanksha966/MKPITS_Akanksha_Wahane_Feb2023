@@ -1,0 +1,11 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\bin\Debug\windows using CALCULATOR.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\bin\Debug\windows using CALCULATOR.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\bin\Debug\windows using CALCULATOR.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\obj\Debug\windows using CALCULATOR.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\obj\Debug\windows using CALCULATOR.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\obj\Debug\windows_using_CALCULATOR.Form1.resources
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\obj\Debug\windows_using_CALCULATOR.Properties.Resources.resources
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\obj\Debug\windows using CALCULATOR.csproj.GenerateResource.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\obj\Debug\windows using CALCULATOR.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\obj\Debug\windows using CALCULATOR.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\windows using CALCULATOR\windows using CALCULATOR\obj\Debug\windows using CALCULATOR.pdb

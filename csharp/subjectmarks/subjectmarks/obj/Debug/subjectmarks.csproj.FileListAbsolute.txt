@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\subjectmarks\subjectmarks\obj\Debug\subjectmarks.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\subjectmarks\subjectmarks\obj\Debug\subjectmarks.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\subjectmarks\subjectmarks\obj\Debug\subjectmarks.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\subjectmarks\subjectmarks\bin\Debug\subjectmarks.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\subjectmarks\subjectmarks\bin\Debug\subjectmarks.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\subjectmarks\subjectmarks\bin\Debug\subjectmarks.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\subjectmarks\subjectmarks\obj\Debug\subjectmarks.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\subjectmarks\subjectmarks\obj\Debug\subjectmarks.pdb

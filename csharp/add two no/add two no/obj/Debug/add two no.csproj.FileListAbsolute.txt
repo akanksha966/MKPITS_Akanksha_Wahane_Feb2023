@@ -1,0 +1,8 @@
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add two no\add two no\bin\Debug\add two no.exe.config
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add two no\add two no\bin\Debug\add two no.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add two no\add two no\bin\Debug\add two no.pdb
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add two no\add two no\obj\Debug\add two no.csproj.AssemblyReference.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add two no\add two no\obj\Debug\add two no.csproj.SuggestedBindingRedirects.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add two no\add two no\obj\Debug\add two no.csproj.CoreCompileInputs.cache
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add two no\add two no\obj\Debug\add two no.exe
+D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add two no\add two no\obj\Debug\add two no.pdb
