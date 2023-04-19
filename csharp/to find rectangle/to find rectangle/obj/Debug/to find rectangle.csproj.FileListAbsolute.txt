@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\to find rectangle\to find rectangle\obj\Debug\to find rectangle.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\to find rectangle\to find rectangle\obj\Debug\to find rectangle.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\to find rectangle\to find rectangle\obj\Debug\to find rectangle.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\to find rectangle\to find rectangle\bin\Debug\to find rectangle.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\to find rectangle\to find rectangle\bin\Debug\to find rectangle.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\to find rectangle\to find rectangle\bin\Debug\to find rectangle.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\to find rectangle\to find rectangle\obj\Debug\to find rectangle.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\to find rectangle\to find rectangle\obj\Debug\to find rectangle.pdb

@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\two array addition third array\two array addition third array\bin\Debug\two array addition third array.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\two array addition third array\two array addition third array\bin\Debug\two array addition third array.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\two array addition third array\two array addition third array\bin\Debug\two array addition third array.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\two array addition third array\two array addition third array\obj\Debug\two array addition third array.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\two array addition third array\two array addition third array\obj\Debug\two array addition third array.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\two array addition third array\two array addition third array\obj\Debug\two array addition third array.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\two array addition third array\two array addition third array\obj\Debug\two array addition third array.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\two array addition third array\two array addition third array\obj\Debug\two array addition third array.pdb

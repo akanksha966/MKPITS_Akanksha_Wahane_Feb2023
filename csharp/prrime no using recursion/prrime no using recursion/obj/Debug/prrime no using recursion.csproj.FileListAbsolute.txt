@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prrime no using recursion\prrime no using recursion\bin\Debug\prrime no using recursion.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prrime no using recursion\prrime no using recursion\bin\Debug\prrime no using recursion.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prrime no using recursion\prrime no using recursion\bin\Debug\prrime no using recursion.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prrime no using recursion\prrime no using recursion\obj\Debug\prrime no using recursion.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prrime no using recursion\prrime no using recursion\obj\Debug\prrime no using recursion.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prrime no using recursion\prrime no using recursion\obj\Debug\prrime no using recursion.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prrime no using recursion\prrime no using recursion\obj\Debug\prrime no using recursion.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prrime no using recursion\prrime no using recursion\obj\Debug\prrime no using recursion.pdb

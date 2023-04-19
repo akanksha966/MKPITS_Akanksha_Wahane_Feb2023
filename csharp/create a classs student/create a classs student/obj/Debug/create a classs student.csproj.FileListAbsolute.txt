@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\create a classs student\create a classs student\bin\Debug\create a classs student.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\create a classs student\create a classs student\bin\Debug\create a classs student.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\create a classs student\create a classs student\bin\Debug\create a classs student.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\create a classs student\create a classs student\obj\Debug\create a classs student.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\create a classs student\create a classs student\obj\Debug\create a classs student.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\create a classs student\create a classs student\obj\Debug\create a classs student.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\create a classs student\create a classs student\obj\Debug\create a classs student.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\create a classs student\create a classs student\obj\Debug\create a classs student.pdb

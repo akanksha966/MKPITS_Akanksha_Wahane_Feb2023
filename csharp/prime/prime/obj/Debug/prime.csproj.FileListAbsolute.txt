@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prime\prime\bin\Debug\prime.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prime\prime\bin\Debug\prime.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prime\prime\bin\Debug\prime.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prime\prime\obj\Debug\prime.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prime\prime\obj\Debug\prime.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prime\prime\obj\Debug\prime.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prime\prime\obj\Debug\prime.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\prime\prime\obj\Debug\prime.pdb

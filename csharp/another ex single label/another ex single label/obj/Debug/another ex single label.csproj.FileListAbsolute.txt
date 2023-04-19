@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\another ex single label\another ex single label\bin\Debug\another ex single label.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\another ex single label\another ex single label\bin\Debug\another ex single label.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\another ex single label\another ex single label\bin\Debug\another ex single label.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\another ex single label\another ex single label\obj\Debug\another ex single label.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\another ex single label\another ex single label\obj\Debug\another ex single label.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\another ex single label\another ex single label\obj\Debug\another ex single label.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\another ex single label\another ex single label\obj\Debug\another ex single label.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\another ex single label\another ex single label\obj\Debug\another ex single label.pdb

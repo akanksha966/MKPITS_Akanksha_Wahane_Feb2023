@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\smallest\smallest\bin\Debug\smallest.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\smallest\smallest\bin\Debug\smallest.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\smallest\smallest\bin\Debug\smallest.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\smallest\smallest\obj\Debug\smallest.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\smallest\smallest\obj\Debug\smallest.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\smallest\smallest\obj\Debug\smallest.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\smallest\smallest\obj\Debug\smallest.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\smallest\smallest\obj\Debug\smallest.pdb

@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\methodspriHello\methodspriHello\bin\Debug\methodspriHello.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\methodspriHello\methodspriHello\bin\Debug\methodspriHello.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\methodspriHello\methodspriHello\bin\Debug\methodspriHello.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\methodspriHello\methodspriHello\obj\Debug\methodspriHello.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\methodspriHello\methodspriHello\obj\Debug\methodspriHello.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\methodspriHello\methodspriHello\obj\Debug\methodspriHello.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\methodspriHello\methodspriHello\obj\Debug\methodspriHello.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\methodspriHello\methodspriHello\obj\Debug\methodspriHello.pdb

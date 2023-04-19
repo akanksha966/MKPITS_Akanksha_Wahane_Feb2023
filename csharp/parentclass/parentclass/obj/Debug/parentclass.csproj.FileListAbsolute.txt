@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\parentclass\parentclass\bin\Debug\parentclass.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\parentclass\parentclass\bin\Debug\parentclass.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\parentclass\parentclass\bin\Debug\parentclass.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\parentclass\parentclass\obj\Debug\parentclass.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\parentclass\parentclass\obj\Debug\parentclass.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\parentclass\parentclass\obj\Debug\parentclass.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\parentclass\parentclass\obj\Debug\parentclass.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\parentclass\parentclass\obj\Debug\parentclass.pdb
