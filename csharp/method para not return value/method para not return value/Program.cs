@@ -4,32 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace method_withot_parameter_but_return_a_value
+namespace method_para_not_return_value
 {
-    public class statement
+    class addition
     {
-        int a=10; int b=20;
-        public int state()
+        public void add(int num1,int num2)
         {
-            int result = a + b;
+            int result=num1 + num2;
             Console.WriteLine(result);
             Console.ReadLine();
-            return result;
-
-
 
         }
-
-
     }
     internal class Program
     {
         static void Main(string[] args)
         {
-            statement s = new statement();
-            int b = s.state();
-            Console.WriteLine(b);
-
+            addition s = new addition();
+            s.add(7, 8);
         }
     }
 }
