@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classdiagrammovie_tecket", "classdiagrammovie_tecket\classdiagrammovie_tecket.csproj", "{12702414-C303-4FC7-B9A9-C0660058B4BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12702414-C303-4FC7-B9A9-C0660058B4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12702414-C303-4FC7-B9A9-C0660058B4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12702414-C303-4FC7-B9A9-C0660058B4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12702414-C303-4FC7-B9A9-C0660058B4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3F41939-5261-4205-8C6E-542C47B76A72}
+	EndGlobalSection
+EndGlobal

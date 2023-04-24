@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "findvowel", "findvowel\findvowel.csproj", "{19AA5CE1-21F5-4F9D-8197-B3B6082CBB1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19AA5CE1-21F5-4F9D-8197-B3B6082CBB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AA5CE1-21F5-4F9D-8197-B3B6082CBB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AA5CE1-21F5-4F9D-8197-B3B6082CBB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AA5CE1-21F5-4F9D-8197-B3B6082CBB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91BD43F7-7476-4542-BFFC-B9B3CD992EB7}
+	EndGlobalSection
+EndGlobal
