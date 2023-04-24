@@ -10,16 +10,14 @@ namespace constructor_with_parameter
     {
         public string mycar;
         public int price;
-        public car(string a,int b)
+        public car(string a)
         {
             mycar = a;
-            price = b;  
             Console.WriteLine("constructor overloading parameter");
 
         }
-        public car(int b,string a)
+        public car(int b)
         {
-            mycar += a;
             price = b;
             Console.WriteLine("constructor with parameter");
 
@@ -29,7 +27,7 @@ namespace constructor_with_parameter
     {
         static void Main(string[] args)
         {
-            car stud=new car("aasa",200000);
+            car stud=new car(200000);
             //or
             Console.WriteLine("model name is "+stud.mycar);
             Console.WriteLine("model price is " + stud.price);
