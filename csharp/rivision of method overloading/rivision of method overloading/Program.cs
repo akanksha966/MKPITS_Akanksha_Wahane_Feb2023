@@ -60,14 +60,14 @@ namespace rivision_of_method_overloading
     {
         static void Main(string[] args)
         {
-           
+            calculator calcu = new calculator();
+            int b=calcu.cal(1, 2);//code complexity increases
+            Console.WriteLine("add is " +b);
+            Console.WriteLine("=============");
             abc stud = new abc();
 
             int c =stud.cal(1, 2,4);
-            int d=stud.cal(1, 2);
             Console.WriteLine("add is " + c);
-            Console.WriteLine("add is " + d);
-
             Console.ReadLine();
 
 

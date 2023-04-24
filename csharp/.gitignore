@@ -4,3 +4,4 @@ Properties/
 *.config
 .vs/
 *.resx
+*.csproj
