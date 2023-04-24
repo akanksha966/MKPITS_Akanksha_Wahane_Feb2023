@@ -1,4 +1,6 @@
-*.sln
-*.csproj
-*.csproj.user
+bin/
+obj/
+Properties/
+*.config
+.vs/
 *.resx
