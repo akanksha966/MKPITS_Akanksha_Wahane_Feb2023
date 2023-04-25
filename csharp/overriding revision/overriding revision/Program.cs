@@ -10,7 +10,7 @@ namespace overriding_revision
     {
         public void dog(int a,int b)
         {
-            Console.WriteLine("my name is dog");
+            Console.WriteLine("my name is dog");//method overriding has the same parameter or empty
 
 
 
