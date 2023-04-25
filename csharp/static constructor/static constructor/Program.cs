@@ -28,7 +28,7 @@ namespace static_constructor
             a1.display();
             Console.WriteLine("=========");
 
-            calculate a2 = new calculate();
+            calculate a2 = new calculate();  
             a2.display();
             Console.ReadLine();
         }
