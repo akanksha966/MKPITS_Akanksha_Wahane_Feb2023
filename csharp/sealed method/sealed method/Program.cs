@@ -36,6 +36,8 @@ namespace sealed_method
     {
         static void Main(string[] args)
         {
+            person p=new person(); 
+            p.display();
             person2 per=new person2();
             per.display();
             per.shows();
