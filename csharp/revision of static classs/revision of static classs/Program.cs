@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace revision_of_static_classs
+namespace revision_of_static_classs//static class example
 {
     public static class animal
     {
