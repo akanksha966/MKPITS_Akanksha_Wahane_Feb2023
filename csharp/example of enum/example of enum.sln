@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example of enum", "example of enum\example of enum.csproj", "{D81C36A6-C63F-4CEE-9A76-09EB363C0F6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D81C36A6-C63F-4CEE-9A76-09EB363C0F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81C36A6-C63F-4CEE-9A76-09EB363C0F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81C36A6-C63F-4CEE-9A76-09EB363C0F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81C36A6-C63F-4CEE-9A76-09EB363C0F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {801E3DD6-DE27-4BEB-A570-CA2D0081E14D}
+	EndGlobalSection
+EndGlobal
