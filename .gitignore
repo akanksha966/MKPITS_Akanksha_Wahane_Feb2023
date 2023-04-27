@@ -1,5 +1,2 @@
-bin/
-obj/
-Properties/
-*.config
-.vs/
+obj\
+bin\
