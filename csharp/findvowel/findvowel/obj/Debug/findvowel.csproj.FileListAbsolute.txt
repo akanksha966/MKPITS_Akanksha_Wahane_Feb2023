@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findvowel\findvowel\bin\Debug\findvowel.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findvowel\findvowel\bin\Debug\findvowel.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findvowel\findvowel\bin\Debug\findvowel.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findvowel\findvowel\obj\Debug\findvowel.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findvowel\findvowel\obj\Debug\findvowel.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findvowel\findvowel\obj\Debug\findvowel.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findvowel\findvowel\obj\Debug\findvowel.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\findvowel\findvowel\obj\Debug\findvowel.pdb

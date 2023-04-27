@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\rank and length\rank and length\bin\Debug\rank and length.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\rank and length\rank and length\bin\Debug\rank and length.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\rank and length\rank and length\bin\Debug\rank and length.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\rank and length\rank and length\obj\Debug\rank and length.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\rank and length\rank and length\obj\Debug\rank and length.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\rank and length\rank and length\obj\Debug\rank and length.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\rank and length\rank and length\obj\Debug\rank and length.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\rank and length\rank and length\obj\Debug\rank and length.pdb

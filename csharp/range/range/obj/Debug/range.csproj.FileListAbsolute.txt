@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\range\range\bin\Debug\range.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\range\range\bin\Debug\range.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\range\range\bin\Debug\range.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\range\range\obj\Debug\range.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\range\range\obj\Debug\range.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\range\range\obj\Debug\range.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\range\range\obj\Debug\range.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\range\range\obj\Debug\range.pdb

@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\single level but same name class and child\single level but same name class and child\obj\Debug\single level but same name class and child.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\single level but same name class and child\single level but same name class and child\obj\Debug\single level but same name class and child.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\single level but same name class and child\single level but same name class and child\obj\Debug\single level but same name class and child.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\single level but same name class and child\single level but same name class and child\bin\Debug\single level but same name class and child.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\single level but same name class and child\single level but same name class and child\bin\Debug\single level but same name class and child.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\single level but same name class and child\single level but same name class and child\bin\Debug\single level but same name class and child.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\single level but same name class and child\single level but same name class and child\obj\Debug\single level but same name class and child.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\single level but same name class and child\single level but same name class and child\obj\Debug\single level but same name class and child.pdb

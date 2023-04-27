@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\inheritance of class\inheritance of class\bin\Debug\inheritance of class.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\inheritance of class\inheritance of class\bin\Debug\inheritance of class.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\inheritance of class\inheritance of class\bin\Debug\inheritance of class.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\inheritance of class\inheritance of class\obj\Debug\inheritance of class.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\inheritance of class\inheritance of class\obj\Debug\inheritance of class.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\inheritance of class\inheritance of class\obj\Debug\inheritance of class.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\inheritance of class\inheritance of class\obj\Debug\inheritance of class.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\inheritance of class\inheritance of class\obj\Debug\inheritance of class.pdb

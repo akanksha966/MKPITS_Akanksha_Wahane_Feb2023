@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add personal data\add personal data\bin\Debug\add personal data.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add personal data\add personal data\bin\Debug\add personal data.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add personal data\add personal data\bin\Debug\add personal data.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add personal data\add personal data\obj\Debug\add personal data.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add personal data\add personal data\obj\Debug\add personal data.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add personal data\add personal data\obj\Debug\add personal data.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add personal data\add personal data\obj\Debug\add personal data.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\add personal data\add personal data\obj\Debug\add personal data.pdb

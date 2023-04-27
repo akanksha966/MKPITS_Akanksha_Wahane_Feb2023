@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\calling me from anothe method\calling me from anothe method\bin\Debug\calling me from anothe method.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\calling me from anothe method\calling me from anothe method\bin\Debug\calling me from anothe method.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\calling me from anothe method\calling me from anothe method\bin\Debug\calling me from anothe method.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\calling me from anothe method\calling me from anothe method\obj\Debug\calling me from anothe method.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\calling me from anothe method\calling me from anothe method\obj\Debug\calling me from anothe method.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\calling me from anothe method\calling me from anothe method\obj\Debug\calling me from anothe method.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\calling me from anothe method\calling me from anothe method\obj\Debug\calling me from anothe method.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\calling me from anothe method\calling me from anothe method\obj\Debug\calling me from anothe method.pdb

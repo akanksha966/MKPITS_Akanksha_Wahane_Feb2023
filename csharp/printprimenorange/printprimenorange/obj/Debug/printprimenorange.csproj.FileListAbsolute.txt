@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\printprimenorange\printprimenorange\obj\Debug\printprimenorange.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\printprimenorange\printprimenorange\obj\Debug\printprimenorange.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\printprimenorange\printprimenorange\obj\Debug\printprimenorange.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\printprimenorange\printprimenorange\bin\Debug\printprimenorange.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\printprimenorange\printprimenorange\bin\Debug\printprimenorange.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\printprimenorange\printprimenorange\bin\Debug\printprimenorange.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\printprimenorange\printprimenorange\obj\Debug\printprimenorange.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\printprimenorange\printprimenorange\obj\Debug\printprimenorange.pdb

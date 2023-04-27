@@ -1,8 +1,0 @@
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\interface inheritance example\interface inheritance example\bin\Debug\interface inheritance example.exe.config
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\interface inheritance example\interface inheritance example\bin\Debug\interface inheritance example.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\interface inheritance example\interface inheritance example\bin\Debug\interface inheritance example.pdb
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\interface inheritance example\interface inheritance example\obj\Debug\interface inheritance example.csproj.AssemblyReference.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\interface inheritance example\interface inheritance example\obj\Debug\interface inheritance example.csproj.SuggestedBindingRedirects.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\interface inheritance example\interface inheritance example\obj\Debug\interface inheritance example.csproj.CoreCompileInputs.cache
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\interface inheritance example\interface inheritance example\obj\Debug\interface inheritance example.exe
-D:\dotnet_program\MKPITS_Akanksha_Wahane_Feb2023\csharp\interface inheritance example\interface inheritance example\obj\Debug\interface inheritance example.pdb
