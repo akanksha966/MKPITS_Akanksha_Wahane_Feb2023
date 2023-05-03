@@ -10,9 +10,10 @@ namespace run_time_polymorphism
     {
         public virtual void getinfo()
         {
-            Console.WriteLine("it is a PARENT class");
-        }
+           Console.WriteLine("it is a PARENT class");
+       }
     }
+
 
     class child : parent
     {
@@ -25,7 +26,7 @@ namespace run_time_polymorphism
         {
             static void Main(string[] args)
             {
-                parent p= new child();//reference variable child class ke object me reference variable 
+                parent p = new child();//reference variable child class ke object me reference variable 
                                       // store hota hai..
                 
                 p.getinfo();
