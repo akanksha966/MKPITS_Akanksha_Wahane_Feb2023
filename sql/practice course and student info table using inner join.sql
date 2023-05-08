@@ -8,7 +8,8 @@ insert into studentinfo values(13,'Ashu',1)
 insert into studentinfo values(15,'Mayuri',2)
 insert into studentinfo values(14,'Rupali',2)
 ----inner join find duplicate---
-select coursename from course where courseid=(select courseid from studentinfo where name='Akanksha')
+select coursename from course where courseid in(select courseid from studentinfo where name='Akanksha')
+
 
 select s.courseid,s.coursename,g.name from  course s inner join studentinfo g on s.courseid=g.courseid where coursename='java'
 
