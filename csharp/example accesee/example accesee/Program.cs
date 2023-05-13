@@ -26,7 +26,7 @@ namespace example_accesee
             }
         }
 
-        internal class Program
+        internal class Program//if one class is private, then can we inheritate that class?
         {
             static void Main(string[] args)
             {
