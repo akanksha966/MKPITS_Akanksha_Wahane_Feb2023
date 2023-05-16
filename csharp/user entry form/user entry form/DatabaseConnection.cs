@@ -21,7 +21,7 @@ namespace user_entry_form
                 con.Open();
                 return con;
             }
-            catch(SqlException ee)
+            catch (SqlException ee)
             {
                 return null;
             }
@@ -59,5 +59,66 @@ namespace user_entry_form
                 con.Close();
             }
         }
+
+        //creating a static method to update record into users table
+        public static string UpdateUsers(string username, string password)
+        {
+            SqlConnection con = GetConnection();
+            //creating a insert command
+            string query = "update userdetail set password=@password where username=@username";
+            //@username and @password are sqlparameters
+            try
+            {
+                //creating an object of sqlcommand class
+                SqlCommand command = new SqlCommand(query, con);
+                //defining sqlparameters
+
+                command.Parameters.AddWithValue("@password", password);
+                command.Parameters.AddWithValue("@username", username);
+                //executing the command using executenonquery method
+                command.ExecuteNonQuery();
+                return "record updated successfully";
+            }
+            catch (Exception ee)
+            {
+                return ee.ToString();
+            }
+            finally
+            {
+                con.Close();
+            }
+
+        }
+
+        public static string DeleteUsers(string username)
+        {
+            SqlConnection con = GetConnection();
+            //creating a insert command
+            string query = "delete from userdetail  where username=@username";
+            //@username and @password are sqlparameters
+            try
+            {
+                //creating an object of sqlcommand class
+                SqlCommand command = new SqlCommand(query, con);
+                //defining sqlparameters
+
+
+                command.Parameters.AddWithValue("@username", username);
+                //executing the command using executenonquery method
+                command.ExecuteNonQuery();
+                return "record deleted successfully";
+            }
+            catch (Exception ee)
+            {
+                return ee.ToString();
+            }
+            finally
+            {
+                con.Close();
+            }
+
+        }
+
+
     }
 }
