@@ -30,6 +30,7 @@ namespace bankdetails
             {
                 totalbalance=amount + Addamount;
             }
+            
            Label1.Text=totalbalance.ToString();
             clearall();
            

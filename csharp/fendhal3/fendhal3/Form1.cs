@@ -12,6 +12,8 @@ namespace fendhal3
 {
     public partial class Form1 : Form
     {
+        enum paymentmode { Cash, EMI }
+        enum Gender { Male, Female }    
         public Form1()
         {
             InitializeComponent();
@@ -69,14 +71,12 @@ namespace fendhal3
             }
 
 
-           // double amount = Convert.ToDouble(textBox9.Text) * (Convert.ToDouble(textBox5.Text));
-            //textBox7.Text = amount.ToString();
+           
         }
 
         private void textBox7_TextChanged(object sender, EventArgs e)
         {
-            //double amount=Convert.ToDouble(textBox9.Text) * Convert.ToDouble(textBox5.Text);
-            //textBox7.Text = amount.ToString();      
+            
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
