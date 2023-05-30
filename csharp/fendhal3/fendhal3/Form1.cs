@@ -13,6 +13,7 @@ namespace fendhal3
     public partial class Form1 : Form
     {
         enum paymentmode { Cash, EMI }
+        paymentmode mode;
         enum Gender { Male, Female }    
         public Form1()
         {
@@ -90,6 +91,47 @@ namespace fendhal3
             double amount = Convert.ToDouble(textBox9.Text) * Convert.ToDouble(textBox6.Text) / 100.0;
             textBox8.Text = amount.ToString();
         }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            
+            if (radioButton3.Checked)
+            {
+
+                
+                mode = paymentmode.Cash;
+                textBox14.Text = textBox9.Text;//9+8 15
+            }
+            
+           
+
+          double netamount= Convert.ToDouble(textBox9.Text) + Convert.ToDouble(textBox8.Text);
+            textBox15.Text = netamount.ToString();
+
+
+           
+            }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            //9 14 15
+            //if(radioButton4.Checked)
+            //{
+            //    mode = paymentmode.EMI;
+            //    double paid = Convert.ToDouble(textBox14.Text);
+            //      textBox14.Text= paid.ToString();      
+            //    double netamount =Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
+            //    textBox15.Text = netamount.ToString();
+            //}
+        }
+
+        private void textBox14_TextChanged(object sender, EventArgs e)
+        {
+         
+
+
+        }
+    }
     }
     
-}
+

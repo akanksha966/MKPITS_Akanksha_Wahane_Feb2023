@@ -155,6 +155,7 @@
             // 
             this.textBox15.Location = new System.Drawing.Point(136, 100);
             this.textBox15.Name = "textBox15";
+            this.textBox15.ReadOnly = true;
             this.textBox15.Size = new System.Drawing.Size(280, 22);
             this.textBox15.TabIndex = 6;
             // 
@@ -174,21 +175,20 @@
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(51, 20);
             this.radioButton4.TabIndex = 4;
-            this.radioButton4.TabStop = true;
             this.radioButton4.Text = "EMI";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Checked = true;
             this.radioButton3.Location = new System.Drawing.Point(152, 46);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(59, 20);
             this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Cash";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // label19
             // 
@@ -408,9 +408,9 @@
             // 
             this.textBox14.Location = new System.Drawing.Point(143, 177);
             this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
             this.textBox14.Size = new System.Drawing.Size(100, 22);
             this.textBox14.TabIndex = 8;
+            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
             // 
             // textBox13
             // 
