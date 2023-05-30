@@ -30,11 +30,11 @@ namespace project2
             per = (total*100)/300;
             Label2.Text=per.ToString();
 
-            if(per < 90)
+            if(per >90)
             {
                 Label3.Text = "distinction";
             }
-            else if(per<70)
+            else if(per>70)
             {
 
                 Label3.Text = "First Class";
