@@ -171,6 +171,7 @@
             this.radioButton5.TabIndex = 2;
             this.radioButton5.Text = "Other";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -181,6 +182,7 @@
             this.radioButton4.TabIndex = 1;
             this.radioButton4.Text = "Female";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -191,6 +193,7 @@
             this.radioButton3.TabIndex = 0;
             this.radioButton3.Text = "Male";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // groupBox2
             // 
@@ -213,6 +216,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "ITProfessional";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -225,6 +229,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Student";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // groupBox4
             // 
@@ -264,6 +269,8 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(186, 22);
             this.textBox3.TabIndex = 5;
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
+            this.textBox3.Leave += new System.EventHandler(this.textBox3_Leave);
             // 
             // label9
             // 
@@ -299,6 +306,7 @@
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(186, 22);
             this.textBox2.TabIndex = 1;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // label6
             // 
@@ -328,6 +336,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 

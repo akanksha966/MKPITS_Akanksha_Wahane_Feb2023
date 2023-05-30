@@ -223,9 +223,14 @@ namespace fendhal_2nd_project
             savebutton();
         }
 
-            public void savebutton()
+        public void savebutton()
+        {
+            if(textBox1.Text==""||textBox2.Text==""||textBox3.Text=="")
             {
-
+                MessageBox.Show("pls fill the details");
+            }
+                else
+            {
 
                 string result = CourseRegistration.savetablecourseregdetail(Convert.ToInt32(category), textBox1.Text, Convert.ToInt32(gender));
                 MessageBox.Show(result);
@@ -233,10 +238,28 @@ namespace fendhal_2nd_project
                 //////////5th table insert//////
                 result = CourseRegistration.savetablereg(Convert.ToInt32(comboBox1.SelectedValue), Convert.ToInt32(comboBox2.SelectedValue), Convert.ToInt32(comboBox3.SelectedValue));
                 MessageBox.Show(result);
-                 
+                ///6 th table insert///
 
-                result=CourseRegistration.savetablefeedetails(Convert.ToDouble(textBox2.Text),fiftypercent,Convert.ToDouble(textBox3.Text),Convert.ToDouble(textBox4.Text),dateTimePicker1.Value);
-            MessageBox.Show(result);
-            } 
+
+                result = CourseRegistration.savetablefeedetails(Convert.ToDouble(textBox2.Text), fiftypercent, Convert.ToDouble(textBox3.Text), Convert.ToDouble(textBox4.Text), dateTimePicker1.Value);
+                MessageBox.Show(result);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            clearall();
+        }
+        public void clearall()
+        {
+                 textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            comboBox1.Text = "";
+            comboBox2.Text = "";
+            comboBox3.Text = "";
+
+        }
     }
 }
