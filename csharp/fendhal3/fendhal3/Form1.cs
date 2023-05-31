@@ -94,13 +94,14 @@ namespace fendhal3
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            
+            textBox14.Clear();
+            textBox15.Clear();
             if (radioButton3.Checked)
             {
-
+                textBox14.Clear();
                 
                 mode = paymentmode.Cash;
-                textBox14.Text = textBox9.Text;//9+8 15
+                textBox14.Text = textBox9.Text;
             }
             
            
@@ -114,21 +115,25 @@ namespace fendhal3
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
+
+            textBox14.Clear();
+            textBox15.Clear();
             //9 14 15
-            //if(radioButton4.Checked)
-            //{
-            //    mode = paymentmode.EMI;
-            //    double paid = Convert.ToDouble(textBox14.Text);
-            //      textBox14.Text= paid.ToString();      
-            //    double netamount =Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
-            //    textBox15.Text = netamount.ToString();
-            //}
+            if (radioButton4.Checked)
+            {
+                mode = paymentmode.EMI;
+               // double paid = Convert.ToDouble(textBox14.Text);
+                //textBox14.Text = paid.ToString();
+                double netamount = Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
+                textBox15.Text = netamount.ToString();
+            }
         }
 
         private void textBox14_TextChanged(object sender, EventArgs e)
         {
-         
 
+             double paid = Convert.ToDouble(textBox14.Text);
+            textBox14.Text = paid.ToString();
 
         }
     }

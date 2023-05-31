@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mkpits solution using ASP", "mkpits solution using ASP\mkpits solution using ASP.csproj", "{3455B177-E070-44DA-890C-128F45295BDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3455B177-E070-44DA-890C-128F45295BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3455B177-E070-44DA-890C-128F45295BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3455B177-E070-44DA-890C-128F45295BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3455B177-E070-44DA-890C-128F45295BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ED1B135-8814-45E9-A17C-A86E38484A29}
+	EndGlobalSection
+EndGlobal
