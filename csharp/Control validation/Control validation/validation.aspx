@@ -27,11 +27,11 @@
             height: 27px;
         }
         .auto-style6 {
+            width: 363px;
             height: 27px;
-            width: 458px;
         }
         .auto-style7 {
-            width: 458px;
+            width: 363px;
         }
     </style>
 </head>
@@ -65,9 +65,24 @@
                     <td class="auto-style7">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style2">&nbsp;</td>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style4">Age</td>
+                    <td class="auto-style5">
+                        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="TextBox4" Display="Dynamic" ErrorMessage="Age Should be between 18 to 100" MaximumValue="100" MinimumValue="18" Type="Integer">Enter Proper Age</asp:RangeValidator>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox4" Display="Dynamic" ErrorMessage="Enter Age">Age Cannot be empty</asp:RequiredFieldValidator>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">Email</td>
+                    <td class="auto-style3">
+                        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                    </td>
+                    <td class="auto-style7">
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox5" ErrorMessage="Email Id Not Valid" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">Enter Email ID</asp:RegularExpressionValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
@@ -77,7 +92,7 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td class="auto-style3">
-                        <asp:Button ID="Button1" runat="server" Height="39px" OnClick="Button1_Click" Text="Button" Width="86px" />
+                        <asp:Button ID="Button1" runat="server" Height="64px" OnClick="Button1_Click" Text="Button" Width="86px" />
                     </td>
                     <td class="auto-style7">&nbsp;</td>
                 </tr>
