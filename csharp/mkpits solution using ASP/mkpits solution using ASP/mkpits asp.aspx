@@ -95,7 +95,9 @@
             </tr>
             <tr>
                 <td class="auto-style4">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td>
+                    <asp:Image ID="Image1" runat="server" ImageUrl="abc.jpg" Width="137px" />
+                </td>
             </tr>
             <tr>
                 <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
