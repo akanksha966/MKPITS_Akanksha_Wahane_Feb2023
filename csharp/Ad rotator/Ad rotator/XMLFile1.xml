@@ -2,19 +2,19 @@
 
 
 
-<Advertisments>
+<Advertisements>
 	<Ad>
-		<ImageUrl>download6.jpg</ImageUrl>
-		<Impression>6</Impression>
+		<ImageUrl>download66.jpg</ImageUrl>
+		<Impressions>6</Impressions>
 	</Ad>
 
 	<Ad>
-		<ImageUrl>images7.jpg</ImageUrl>
-		<Impression>4</Impression>
+		<ImageUrl>images77.jpg</ImageUrl>
+		<Impressions>4</Impressions>
 	</Ad>
 
 	<Ad>
-		<ImageUrl>images8.jpg</ImageUrl>
-		<Impression>2</Impression>
+		<ImageUrl>images88.jpg</ImageUrl>
+		<Impressions>2</Impressions>
 	</Ad>
-</Advertisments>
+</Advertisements>
