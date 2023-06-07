@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace fendhal3
 {
@@ -118,23 +119,70 @@ namespace fendhal3
 
             textBox14.Clear();
             textBox15.Clear();
-            //9 14 15
+            gridview();
+
+
+        }
+        public void gridview()
+        {
+            mode = paymentmode.EMI;
+
             if (radioButton4.Checked)
             {
-                mode = paymentmode.EMI;
-               // double paid = Convert.ToDouble(textBox14.Text);
-                //textBox14.Text = paid.ToString();
-                double netamount = Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
-                textBox15.Text = netamount.ToString();
+                DataTable dt = new DataTable();
+               
+
+                decimal EMI = Convert.ToDecimal(textBox15.Text) / 3;
+                dataGridView1.DataSource = EMI;
+                //dataGridView1.DataSource = dt;
+                //for (int i = 0; i <= 2; i++)
+                //{
+                //    dt.Rows.Add(EMI);
+                //}
+                //dataGridView1.DataSource.Equals(dt);
             }
+
         }
 
         private void textBox14_TextChanged(object sender, EventArgs e)
         {
+            //9 14 15
+            // double paid = Convert.ToDouble(textBox14.Text);
+            //textBox14.Text = paid.ToString();
 
-             double paid = Convert.ToDouble(textBox14.Text);
-            textBox14.Text = paid.ToString();
+        }
 
+        private void textBox14_Leave(object sender, EventArgs e)
+        {
+            
+            mode = paymentmode.EMI;
+            double total=Convert.ToDouble(textBox9.Text);
+            double paid= Convert.ToDouble(textBox14.Text);
+           if(paid>total)
+            {
+                MessageBox.Show("paid amount not greater than total amount");
+            }
+            else
+            {
+                 double netamt=Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
+                textBox15.Text = netamt.ToString(); 
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string gender = null;
+
+            if (radioButton1.Checked)
+            {
+                gender = "Male";
+            }
+            else if (radioButton2.Checked)
+            {
+                gender = "female";
+            }
+                string result=Invoicegeneration.getcustomer(textBox11.Text,textBox12.Text,gender,textBox13.Text,Convert.ToDecimal(textBox14.Text));
+            MessageBox.Show(result);
         }
     }
     }

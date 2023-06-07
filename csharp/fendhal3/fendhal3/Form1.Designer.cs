@@ -81,6 +81,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label20 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -137,9 +138,9 @@
             this.groupBox5.Controls.Add(this.radioButton3);
             this.groupBox5.Controls.Add(this.label19);
             this.groupBox5.Controls.Add(this.label18);
-            this.groupBox5.Location = new System.Drawing.Point(607, 525);
+            this.groupBox5.Location = new System.Drawing.Point(613, 516);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(494, 191);
+            this.groupBox5.Size = new System.Drawing.Size(488, 200);
             this.groupBox5.TabIndex = 5;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Payment Details";
@@ -411,6 +412,7 @@
             this.textBox14.Size = new System.Drawing.Size(100, 22);
             this.textBox14.TabIndex = 8;
             this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
+            this.textBox14.Leave += new System.EventHandler(this.textBox14_Leave);
             // 
             // textBox13
             // 
@@ -608,11 +610,22 @@
             this.label20.TabIndex = 1;
             this.label20.Text = "Invoice Generation";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1188, 102);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 49);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Save";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1181, 778);
+            this.ClientSize = new System.Drawing.Size(1360, 828);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -693,6 +706,7 @@
         private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+using System.Reflection;
+using System.Security.Principal;
 
 namespace fendhal3
 {
@@ -49,6 +51,28 @@ namespace fendhal3
             da.SelectCommand.Parameters.AddWithValue("@Name", Name);
             da.Fill(ds, "COMPUTERS");
             return ds;
+        }
+
+        //        CREATE TABLE CUSTOMER(ID INT PRIMARY KEY IDENTITY, FIRST_NAME VARCHAR(30),
+        //            LAST_NAME VARCHAR(30),GENDER VARCHAR(10),
+        //MOBILE VARCHAR(20),PAID_AMOUNT DECIMAL)
+        public static string getcustomer(string Name,string Lname,string gender,string mobileno,decimal paid_amount) { 
+
+            SqlConnection s = GetConnection();
+            s.Open();
+            string query = "insert into CUSTOMER values(@name,@lname,@gender,@mobileno,@paidamount)";
+            SqlCommand cmd=new SqlCommand(query,s);
+            cmd.Parameters.AddWithValue("@name", Name);
+            cmd.Parameters.AddWithValue("@lname", Lname);
+            cmd.Parameters.AddWithValue("@gender", gender);
+            cmd.Parameters.AddWithValue("@mobileno", mobileno);
+            cmd.Parameters.AddWithValue("@paidamount", paid_amount);
+            cmd.ExecuteNonQuery();
+            s.Close();
+
+            return "inserted record successfully";
+           
+
         }
     }
 }
