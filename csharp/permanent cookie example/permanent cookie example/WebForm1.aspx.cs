@@ -20,7 +20,7 @@ namespace permanent_cookie_example
             HttpCookie cookie = new HttpCookie("cook1");
             cookie.Values.Add("username", TextBox1.Text);
             cookie.Values.Add("email",TextBox2.Text);
-            DateTime dt= DateTime.Now;
+            DateTime dt= DateTime.Now;//server date
             TimeSpan ts=new TimeSpan(0,2,0);
             cookie.Expires= dt.Add(ts);
             Label1.Text = "permanent cookie added to client machine";
