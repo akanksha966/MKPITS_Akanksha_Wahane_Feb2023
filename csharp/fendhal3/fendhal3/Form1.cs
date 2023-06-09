@@ -13,6 +13,8 @@ namespace fendhal3
 {
     public partial class Form1 : Form
     {
+        DataTable dt = new DataTable("table");
+
         enum paymentmode { Cash, EMI }
         paymentmode mode;
         enum Gender { Male, Female }    
@@ -43,6 +45,8 @@ namespace fendhal3
             DataSet ds = Invoicegeneration.getname();
             listBox1.DataSource = ds.Tables[0];
             listBox1.DisplayMember = "Name";
+
+           // TableLayoutCellPaintEventArgs.
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -119,30 +123,11 @@ namespace fendhal3
 
             textBox14.Clear();
             textBox15.Clear();
-            gridview();
+           // gridview();
 
 
         }
-        public void gridview()
-        {
-            mode = paymentmode.EMI;
-
-            if (radioButton4.Checked)
-            {
-                DataTable dt = new DataTable();
-               
-
-                decimal EMI = Convert.ToDecimal(textBox15.Text) / 3;
-                dataGridView1.DataSource = EMI;
-                //dataGridView1.DataSource = dt;
-                //for (int i = 0; i <= 2; i++)
-                //{
-                //    dt.Rows.Add(EMI);
-                //}
-                //dataGridView1.DataSource.Equals(dt);
-            }
-
-        }
+        
 
         private void textBox14_TextChanged(object sender, EventArgs e)
         {
@@ -167,6 +152,24 @@ namespace fendhal3
                  double netamt=Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
                 textBox15.Text = netamt.ToString(); 
             }
+
+
+            //mode = paymentmode.EMI;
+
+            //if (radioButton4.Checked)
+            //{
+
+
+            //    decimal EMI = Convert.ToDecimal(textBox15.Text) / 3;
+            //    dataGridView1.DataSource = EMI;
+                //dataGridView1.DataSource = dt;
+                //for (int i = 0; i <= 2; i++)
+                //{
+                //    dt.Rows.Add(EMI);
+                //}
+                //dataGridView1.DataSource = EMI;
+            //}
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -184,7 +187,20 @@ namespace fendhal3
                 string result=Invoicegeneration.getcustomer(textBox11.Text,textBox12.Text,gender,textBox13.Text,Convert.ToDecimal(textBox14.Text));
             MessageBox.Show(result);
         }
+
+        private void radioButton4_Leave(object sender, EventArgs e)
+        {
+            //public void gridview()
+            //{
+                
+            }
+
+        private void textBox10_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     }
+    
     
 

@@ -121,6 +121,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(14, 32);
             this.dataGridView1.Name = "dataGridView1";
@@ -179,6 +180,7 @@
             this.radioButton4.Text = "EMI";
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            this.radioButton4.Leave += new System.EventHandler(this.radioButton4_Leave);
             // 
             // radioButton3
             // 
@@ -245,6 +247,7 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(281, 22);
             this.textBox10.TabIndex = 12;
+            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // textBox9
             // 
@@ -612,7 +615,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1188, 102);
+            this.button1.Location = new System.Drawing.Point(433, 782);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 49);
             this.button1.TabIndex = 2;

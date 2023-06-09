@@ -67,7 +67,7 @@
                 <tr>
                     <td class="auto-style4">Age</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox4" runat="server" EnableTheming="True"></asp:TextBox>
                     </td>
                     <td class="auto-style6">
                         <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="TextBox4" Display="Dynamic" ErrorMessage="Age Should be between 18 to 100" MaximumValue="100" MinimumValue="18" Type="Integer">Enter Proper Age</asp:RangeValidator>
