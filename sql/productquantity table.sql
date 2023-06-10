@@ -12,6 +12,10 @@ insert into productqty values(10,'East','pen drive',2019,2000,1200)
 insert into productqty values(11,'West','Mouse',2029,190,650)
 insert into productqty values(12,'East','Computer',2020,130,50000)
 
+select * from productqty
+select top 5 Region,products from productqty
+select Products,Price from productqty where Price =(select max(Price) from Productqty)
+
 ----min function-----
 select min (Quantity) from productqty --normal
 select min (Quantity) as 'minumum quantity' from productqty--second form
