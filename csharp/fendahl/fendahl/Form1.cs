@@ -58,11 +58,16 @@ namespace fendahl
             comboBox1.ValueMember = "Product_Category_ID";
 
 
+            //textBox3.Text = CGST.ToString();
+            //textBox4.Text = SGST.ToString();
+            //textBox5.Text = Convert.ToString(Convert.ToInt32(textBox3.Text) + Convert.ToInt32(textBox4.Text));
+
+
         }
         int CGST = 0;
         int SGST = 0;
         int IGST = 0;
-        int TGST = 0;
+        int TGST = 0;//calculate on tgst 
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -89,13 +94,13 @@ namespace fendahl
             {
                 TGST = CGST + SGST;
             }
-            else
+            else if(radioButton2.Checked)
             {
                 TGST = IGST;
             }
             textBox3.Text = CGST.ToString();
             textBox4.Text = SGST.ToString();
-            textBox5.Text = IGST.ToString();
+            textBox5.Text = TGST.ToString();//
 
         }
 

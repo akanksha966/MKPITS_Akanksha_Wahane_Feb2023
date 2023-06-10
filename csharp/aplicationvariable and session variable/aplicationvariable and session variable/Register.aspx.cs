@@ -21,8 +21,8 @@ namespace aplicationvariable_and_session_variable
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-Session ["username"]=TextBox1.Text;
-    Session["email"]=TextBox2.Text;
+            Session ["username"]=TextBox1.Text;
+            Session["email"]=TextBox2.Text;
             Label1.Text = "value stored in session variable";
 
 

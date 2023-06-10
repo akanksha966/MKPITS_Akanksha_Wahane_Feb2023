@@ -26,7 +26,7 @@ namespace permanent_cookie_example
             Label1.Text = "permanent cookie added to client machine";
             Response.Cookies.Add(cookie);   
 
-
+            
         }
 
         protected void Button2_Click(object sender, EventArgs e)
