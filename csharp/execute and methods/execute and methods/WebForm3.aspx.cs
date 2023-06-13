@@ -11,15 +11,21 @@ namespace execute_and_methods
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           string n = Request.QueryString["name"].ToString();
-            Response.Write("name is " + n);
-            Response.Write("<br>");
+           //string n = Request.QueryString["name"].ToString();
+           // Response.Write("name is " + n);
+           // Response.Write("<br>");
 
 
-            string nn = Request.QueryString["name"].ToString();
-            Response.Write("name is " + nn);
-            Response.Write("<br>");
+           // string nn = Request.QueryString["name"].ToString();
+           // Response.Write("name is " + nn);
+           // Response.Write("<br>");
 
+
+            string name2 = Request.QueryString["name"].ToString();
+            Response.Write("name is " + name2);
+
+            //string password2 = Request.QueryString["password"].ToString();
+            //Response.Write("password is " + password2);
         }
     }
 }

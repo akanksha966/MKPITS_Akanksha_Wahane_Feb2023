@@ -114,7 +114,7 @@
             this.groupBox6.Controls.Add(this.dataGridView1);
             this.groupBox6.Location = new System.Drawing.Point(67, 525);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(447, 199);
+            this.groupBox6.Size = new System.Drawing.Size(522, 199);
             this.groupBox6.TabIndex = 6;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Emi Details";
@@ -127,7 +127,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(415, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(486, 150);
             this.dataGridView1.TabIndex = 0;
             // 
             // groupBox5

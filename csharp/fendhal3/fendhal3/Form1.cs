@@ -63,8 +63,8 @@ namespace fendhal3
                 textBox3.Text = dr["SELL_QTY"].ToString();
                 textBox4.Text = dr["PRICE_PER_UNIT"].ToString();
                 
-                textBox10.Text=textBox3.Text;
-                textBox9.Text=textBox4.Text;    
+               // textBox10.Text=textBox3.Text;
+                //textBox9.Text=textBox4.Text;    
 
 
             }
@@ -87,14 +87,14 @@ namespace fendhal3
 
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
-            double amount = Convert.ToDouble(textBox9.Text) * Convert.ToDouble(textBox5.Text)/100.0;
-            textBox7.Text = amount.ToString();
+            //double amount = Convert.ToDouble(textBox9.Text) * Convert.ToDouble(textBox5.Text)/100.0;
+            //textBox7.Text = amount.ToString();
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
-            double amount = Convert.ToDouble(textBox9.Text) * Convert.ToDouble(textBox6.Text) / 100.0;
-            textBox8.Text = amount.ToString();
+            //double amount = Convert.ToDouble(textBox9.Text) * Convert.ToDouble(textBox6.Text) / 100.0;
+            //textBox8.Text = amount.ToString();
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
@@ -121,9 +121,8 @@ namespace fendhal3
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
 
-            textBox14.Clear();
-            textBox15.Clear();
-           // gridview();
+      
+          
 
 
         }
@@ -131,44 +130,29 @@ namespace fendhal3
 
         private void textBox14_TextChanged(object sender, EventArgs e)
         {
-            //9 14 15
-            // double paid = Convert.ToDouble(textBox14.Text);
-            //textBox14.Text = paid.ToString();
+            double netamt = Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
+            textBox15.Text = netamt.ToString();
 
         }
 
         private void textBox14_Leave(object sender, EventArgs e)
         {
             
-            mode = paymentmode.EMI;
-            double total=Convert.ToDouble(textBox9.Text);
-            double paid= Convert.ToDouble(textBox14.Text);
-           if(paid>total)
-            {
-                MessageBox.Show("paid amount not greater than total amount");
-            }
-            else
-            {
-                 double netamt=Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
-                textBox15.Text = netamt.ToString(); 
-            }
+           // mode = paymentmode.EMI;
+           // double total=Convert.ToDouble(textBox9.Text);
+           // double paid= Convert.ToDouble(textBox14.Text);
+           //if(paid>total)
+           // {
+           //     MessageBox.Show("paid amount not greater than total amount");
+           // }
+           // else
+           // {
+           //      double netamt=Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
+           //     textBox15.Text = netamt.ToString(); 
+           // }
 
 
-            //mode = paymentmode.EMI;
-
-            //if (radioButton4.Checked)
-            //{
-
-
-            //    decimal EMI = Convert.ToDecimal(textBox15.Text) / 3;
-            //    dataGridView1.DataSource = EMI;
-                //dataGridView1.DataSource = dt;
-                //for (int i = 0; i <= 2; i++)
-                //{
-                //    dt.Rows.Add(EMI);
-                //}
-                //dataGridView1.DataSource = EMI;
-            //}
+            
 
         }
 
@@ -190,14 +174,60 @@ namespace fendhal3
 
         private void radioButton4_Leave(object sender, EventArgs e)
         {
-            //public void gridview()
-            //{
-                
+
+
+            //double netamt = Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
+            //textBox15.Text = netamt.ToString();
+
+            int totalprice=Convert.ToInt32(textBox9.Text);
+            int piadamount=Convert.ToInt32(textBox14.Text); 
+            int remainingamt=totalprice-piadamount;
+            double emiamount = Convert.ToInt32(textBox15.Text);
+            if(radioButton4.Checked)
+            {
+                if(remainingamt>0)
+                {
+                    emiamount = remainingamt/3.0;
+                }
+                DataSet ds = new DataSet();
+                DataTable dt=new DataTable("emi");
+                DataRow dr;
+                dt.Columns.Add(new DataColumn("productname", typeof(string)));
+                dt.Columns.Add(new DataColumn("price", typeof(int)));
+                dt.Columns.Add(new DataColumn("Emi", typeof(decimal)));
+
+                for (int i = 1; i <= 3; i++)
+                {
+                    dr=dt.NewRow();
+                    dr[0] = i;
+                    //dr[1] = textBox1.Text;
+                    //dr[2] =textBox9.Text;
+                    dr[1] =textBox9.Text;
+                    dr[2] = emiamount;
+                    dt.Rows.Add(dr);
+
+                }
+                ds.Tables.Add(dt);
+                dataGridView1.DataSource = ds.Tables[0];
+
+
+
+
             }
+
+        }
 
         private void textBox10_TextChanged(object sender, EventArgs e)
         {
+            double totalprice = Convert.ToDouble(textBox4.Text) * Convert.ToDouble(textBox10.Text);
+            textBox9.Text = totalprice.ToString();
 
+
+            double amount = Convert.ToDouble(textBox9.Text) * Convert.ToDouble(textBox5.Text) / 100.0;
+            textBox7.Text = amount.ToString();
+
+            double amount2 = Convert.ToDouble(textBox9.Text) * Convert.ToDouble(textBox6.Text) / 100.0;
+            textBox8.Text = amount2.ToString();
         }
     }
     }

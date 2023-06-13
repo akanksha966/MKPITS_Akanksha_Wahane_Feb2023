@@ -22,7 +22,7 @@ namespace gridviewexample_using_ado.net
             DataTable dt = new DataTable("addrow");
             DataRow dr;
             dt.Columns.Add("id", typeof(int));
-            dt.Columns.Add("name", typeof(string));
+            dt.Columns.Add(new DataColumn("name", typeof(string)));
             dt.Columns.Add("Admission Date", typeof(DateTime));
             dr = dt.NewRow();
             dr[0] = 22;

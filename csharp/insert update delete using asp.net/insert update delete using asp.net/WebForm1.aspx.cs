@@ -95,7 +95,7 @@ namespace insert_update_delete_using_asp.net
             dr = new SqlDataAdapter(query, s);
             dr.SelectCommand.Parameters.AddWithValue("@productid",Convert.ToInt32(TextBox1.Text));
             dr.Fill(ds, "TableProduct");
-            //TextBox2.Text = ds.Tables[0].Rows[0].ItemArray[1].ToString();
+            TextBox2.Text = ds.Tables[0].Rows[0].ItemArray[1].ToString();
             //TextBox3.Text = ds.Tables[0].Rows[0].ItemArray[2].ToString();
             //TextBox4.Text = ds.Tables[0].Rows[0].ItemArray[3].ToString();
 

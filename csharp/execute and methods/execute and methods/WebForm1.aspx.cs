@@ -58,5 +58,22 @@ namespace execute_and_methods
             string name = ("akanksha wahane");
             Response.Redirect("WebForm3.aspx?name= " + name);
         }
+
+        protected void Button7_Click(object sender, EventArgs e)
+        {
+            string name2 = Server.UrlEncode("ashu wahane");
+            Response.Redirect("WebForm3.aspx?name=" +name2);
+            //string password2 = Server.UrlEncode("ashu");
+
+            //Response.Redirect("WebForm3.aspx?password=" + password2);
+
+
+        }
+
+        protected void Button8_Click(object sender, EventArgs e)
+        {
+            Response.Write("<br>");
+            Response.Write(Server.MapPath("WebForm3.aspx"));
+        }
     }
 }
