@@ -13,11 +13,11 @@ namespace fendhal3
 {
     public partial class Form1 : Form
     {
-        DataTable dt = new DataTable("table");
-
+        
         enum paymentmode { Cash, EMI }
         paymentmode mode;
-        enum Gender { Male, Female }    
+        enum Gender { Male, Female }   
+        Gender gender;
         public Form1()
         {
             InitializeComponent();
@@ -99,8 +99,9 @@ namespace fendhal3
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            textBox14.Clear();
-            textBox15.Clear();
+           
+            textBox14.Text = "";
+            textBox15.Text="";
             if (radioButton3.Checked)
             {
                 textBox14.Clear();
@@ -121,41 +122,56 @@ namespace fendhal3
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
 
-      
-          
-
-
+            textBox14.Text = "";
+            textBox15.Text = "";
         }
         
 
         private void textBox14_TextChanged(object sender, EventArgs e)
         {
-            double netamt = Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
-            textBox15.Text = netamt.ToString();
+           // double netamt = Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
+           // textBox15.Text = netamt.ToString();
 
         }
 
         private void textBox14_Leave(object sender, EventArgs e)
         {
-            
-           // mode = paymentmode.EMI;
-           // double total=Convert.ToDouble(textBox9.Text);
-           // double paid= Convert.ToDouble(textBox14.Text);
-           //if(paid>total)
-           // {
-           //     MessageBox.Show("paid amount not greater than total amount");
-           // }
-           // else
-           // {
-           //      double netamt=Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
-           //     textBox15.Text = netamt.ToString(); 
-           // }
+
+            rfill();
+            //mode = paymentmode.EMI;
+            //double total = Convert.ToDouble(textBox9.Text);
+            //double paid = Convert.ToDouble(textBox14.Text);
+            //if (paid > total)
+            //{
+            //    MessageBox.Show("paid amount not greater than total amount");
+            //}
+            //else
+            //{
+            //    double netamt = Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
+            //    textBox15.Text = netamt.ToString();
+            //}
 
 
-            
+
 
         }
+        public void rfill()
+        {
+            mode = paymentmode.EMI;
+            double total = Convert.ToDouble(textBox9.Text);
+            double paid = Convert.ToDouble(textBox14.Text);
+            if (paid > total)
+            {
+                MessageBox.Show("paid amount not greater than total amount");
+            }
+            else
+            {
+                double netamt = Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
+                textBox15.Text = netamt.ToString();
+            }
 
+
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             string gender = null;
@@ -174,7 +190,7 @@ namespace fendhal3
 
         private void radioButton4_Leave(object sender, EventArgs e)
         {
-
+             rfill();
 
             //double netamt = Convert.ToDouble(textBox9.Text) - Convert.ToDouble(textBox14.Text);
             //textBox15.Text = netamt.ToString();
@@ -228,6 +244,11 @@ namespace fendhal3
 
             double amount2 = Convert.ToDouble(textBox9.Text) * Convert.ToDouble(textBox6.Text) / 100.0;
             textBox8.Text = amount2.ToString();
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
         }
     }
     }

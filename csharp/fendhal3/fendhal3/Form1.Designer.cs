@@ -383,6 +383,7 @@
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Customer Details";
+            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // radioButton2
             // 
