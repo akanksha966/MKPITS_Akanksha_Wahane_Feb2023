@@ -32,13 +32,12 @@
             &nbsp;
             <br />
             <br />
-            Balance Quantity&nbsp;
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-            <br />
-            <br />
             Rate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
             <br />
+            <br />
+            Quantity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             <br />
             <br />
             <br />

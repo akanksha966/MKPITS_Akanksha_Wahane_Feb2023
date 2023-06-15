@@ -24,13 +24,14 @@ namespace TrustProject2
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            query = "insert into  Item_Masters values(@itemname,@category,@balancequantity,@rate)";
+            query = "insert into  Item_Masters values(@itemname,@category,@rate,@balancequantity)";
             SqlCommand cmd = new SqlCommand(query, s);
             cmd.Parameters.AddWithValue("@itemname",TextBox4.Text);
             cmd.Parameters.AddWithValue("@category", DropDownList1.SelectedValue);
 
-            cmd.Parameters.AddWithValue("@balancequantity", Convert.ToInt32(TextBox2.Text));
             cmd.Parameters.AddWithValue("@rate", Convert.ToInt32(TextBox3.Text));
+            cmd.Parameters.AddWithValue("@balancequantity", Convert.ToInt32(TextBox2.Text));
+
             s.Open();
             cmd.ExecuteNonQuery();
             s.Close();
