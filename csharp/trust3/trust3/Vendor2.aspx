@@ -20,6 +20,10 @@
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Insert" />
     &nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button3" runat="server" OnClick="Button3_Click1" Text="Update" />
+    &nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Delete" />
+&nbsp;
+        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Search" />
     </p>
     <p>
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
