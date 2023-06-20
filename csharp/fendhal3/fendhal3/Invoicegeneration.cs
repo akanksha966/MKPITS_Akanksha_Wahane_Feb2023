@@ -74,5 +74,37 @@ namespace fendhal3
            
 
         }
+        //  CREATE TABLE REF_SELLING(ID INT IDENTITY, CUSTOMER_ID INT, COMPUTER_ID INT, SELL_DATE DATE, SELL_QTY INT,
+        //SOLD_BY_PERSON VARCHAR(50),PAYMENT_MODE VARCHAR(15),PAID_AMOUNT DECIMAL, CGST_VALUE decimal,SGST_VALUE decimal,TOTAL_AMOUNT decimal,
+        public static string refselling(int customerid, int computerid, DateTime selldate, int sellqty, string soldperson, string paymentmode, decimal paidamount, decimal cgstvalue, decimal sgstvalue, decimal totalamount)
+        {
+            SqlConnection s = GetConnection();
+            s.Open();
+            try
+            {
+                string query = "insert into REF_SELLING values(@customerid,@computerid,@date,@sellqty,@soldperson,@paymentmode,@paidamount,@cgstvalue,@sgdtvalue,@totalamount)";
+                SqlCommand c = new SqlCommand(query, s);
+                c.Parameters.AddWithValue("@customerid", customerid);
+                c.Parameters.AddWithValue("@computerid", computerid);
+                c.Parameters.AddWithValue("@date", selldate);
+                c.Parameters.AddWithValue("@sellqty", sellqty);
+                c.Parameters.AddWithValue("@soldperson", soldperson);
+                c.Parameters.AddWithValue("@paymentmode", paymentmode);
+                c.Parameters.AddWithValue("@paidamount", paidamount);
+                c.Parameters.AddWithValue("@cgstvalue", cgstvalue);
+                c.Parameters.AddWithValue("@sgstvalue", sgstvalue);
+                c.Parameters.AddWithValue("@totalamount", totalamount);
+                c.ExecuteNonQuery();
+               // s.Close();
+               // return "inserted record successfully";
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+            }
+            finally { s.Close(); }
+            return  "insert successfully";
+         
+        }
     }
 }

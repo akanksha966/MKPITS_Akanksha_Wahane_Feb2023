@@ -45,6 +45,7 @@ namespace fendhal3
             DataSet ds = Invoicegeneration.getname();
             listBox1.DataSource = ds.Tables[0];
             listBox1.DisplayMember = "Name";
+           // listBox1.ValueMember = "ID";
 
            // TableLayoutCellPaintEventArgs.
         }
@@ -124,6 +125,8 @@ namespace fendhal3
 
             textBox14.Text = "";
             textBox15.Text = "";
+
+
         }
         
 
@@ -174,6 +177,7 @@ namespace fendhal3
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            //1st table
             string gender = null;
 
             if (radioButton1.Checked)
@@ -185,6 +189,18 @@ namespace fendhal3
                 gender = "female";
             }
                 string result=Invoicegeneration.getcustomer(textBox11.Text,textBox12.Text,gender,textBox13.Text,Convert.ToDecimal(textBox14.Text));
+            MessageBox.Show(result);
+
+            //2nd table 
+            if (radioButton3.Checked)
+            {
+                mode = paymentmode.Cash;
+            }
+            else if (radioButton4.Checked)
+            {
+                mode = paymentmode.EMI;
+            }
+            result = Invoicegeneration.refselling(Convert.ToInt32(textBox11.Text), Convert.ToInt32(textBox1.Text), dateTimePicker1.Value, Convert.ToInt32(textBox10.Text),textBox16.Text,Convert.ToString(mode),Convert.ToInt32(textBox14.Text),Convert.ToInt32(textBox5.Text),Convert.ToInt32(textBox6.Text),Convert.ToInt32(textBox15.Text));
             MessageBox.Show(result);
         }
 
@@ -247,6 +263,11 @@ namespace fendhal3
         }
 
         private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label23_Click(object sender, EventArgs e)
         {
 
         }

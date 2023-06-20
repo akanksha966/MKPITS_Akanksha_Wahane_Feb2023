@@ -34,6 +34,7 @@ namespace storelibrary
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 conn.Close();
+
                 int bal_qty = 0;
                 query = "select Balance_Quantity from Item_Masters where Item_Id=@Item_Id ";
                 cmd = new SqlCommand(query, conn);
