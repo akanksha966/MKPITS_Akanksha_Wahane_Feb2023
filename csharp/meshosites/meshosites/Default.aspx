@@ -57,15 +57,17 @@ Become a Meesho seller and grow your business across India
 
                <asp:DataList ID="DataList1" runat="server" RepeatColumns="4" RepeatDirection="Horizontal" Width="100%">
                            <ItemTemplate>
-                       <table cellpadding="2" cellspacing="0" border="1" style="width: 300px; height: 100px;
-                    border: dashed 2px #013220; background-color: #FFFFFF">
+                       <table cellpadding="2" cellspacing="0" border="1" style="width: 300px; height: 320px;
+                    border:3px solid lightgray; background-color: #FFFFFF">
                       <tr>
                  <td align="center">
+                  <a href='<%# Eval("prodid","productdetails.aspx?prodid={0}") %>'>
                  <asp:Image ID="Image1" ImageUrl='<%# Bind("prodimage", "~/images/{0}") %>' runat="server"
 
               Height="100"
 
           Width ="100" />
+                      </a>
 
             </td>
                  </tr>

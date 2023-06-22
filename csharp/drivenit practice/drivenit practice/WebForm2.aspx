@@ -26,11 +26,44 @@
     <p>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Add" />
 &nbsp;
-        <asp:Button ID="Button2" runat="server" Text="Edit" />
+        <asp:Button ID="Button2" runat="server" Text="Edit" OnClick="Button2_Click" />
 &nbsp;&nbsp;
         <asp:Button ID="Button3" runat="server" Text="Delete" />
     </p>
     <p>
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     </p>
+    <p>
+        &nbsp;&nbsp;&nbsp;
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="TransID" DataSourceID="SqlDataSource2" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+            <Columns>
+                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowSelectButton="True" />
+                <asp:BoundField DataField="TransID" HeaderText="TransID" InsertVisible="False" ReadOnly="True" SortExpression="TransID" />
+                <asp:BoundField DataField="ItemId" HeaderText="ItemId" SortExpression="ItemId" />
+                <asp:BoundField DataField="TransType" HeaderText="TransType" SortExpression="TransType" />
+                <asp:BoundField DataField="TransQty" HeaderText="TransQty" SortExpression="TransQty" />
+                <asp:BoundField DataField="TransDate" HeaderText="TransDate" SortExpression="TransDate" />
+            </Columns>
+        </asp:GridView>
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:drivenitConnectionString %>" DeleteCommand="DELETE FROM [Transaction1] WHERE [TransID] = @TransID" InsertCommand="INSERT INTO [Transaction1] ([ItemId], [TransType], [TransQty], [TransDate]) VALUES (@ItemId, @TransType, @TransQty, @TransDate)" SelectCommand="SELECT [TransID], [ItemId], [TransType], [TransQty], [TransDate] FROM [Transaction1]" UpdateCommand="UPDATE [Transaction1] SET [ItemId] = @ItemId, [TransType] = @TransType, [TransQty] = @TransQty, [TransDate] = @TransDate WHERE [TransID] = @TransID">
+            <DeleteParameters>
+                <asp:Parameter Name="TransID" Type="Int32" />
+            </DeleteParameters>
+            <InsertParameters>
+                <asp:Parameter Name="ItemId" Type="Int32" />
+                <asp:Parameter Name="TransType" Type="String" />
+                <asp:Parameter Name="TransQty" Type="Int32" />
+                <asp:Parameter Name="TransDate" Type="DateTime" />
+            </InsertParameters>
+            <UpdateParameters>
+                <asp:Parameter Name="ItemId" Type="Int32" />
+                <asp:Parameter Name="TransType" Type="String" />
+                <asp:Parameter Name="TransQty" Type="Int32" />
+                <asp:Parameter Name="TransDate" Type="DateTime" />
+                <asp:Parameter Name="TransID" Type="Int32" />
+            </UpdateParameters>
+        </asp:SqlDataSource>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
 </asp:Content>
