@@ -4,43 +4,66 @@
 
     <main>
         <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">Amazon</h1>
-           <h2 text-align="center" class="lead">Starting Rs 79</h2>
-            <h2 text-align="center <b>" class="lead">Home,Kitchen & Outdoor<br />Clearence Store</h2>
+            <h1 id="aspnetTitle">Mesho</h1>
+           <h2 text-align="center" class="lead"></h2>
+            <h2 text-align="center <b>" class="lead"></h2>
 
-            <p><a href="http://www.asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+            <p>Lowest PricesBest Quality Shopping</p>
         </section>
 
         <div class="row">
             <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-                <h2 id="gettingStartedTitle">Getting started</h2>
+                <h2 id="gettingStartedTitle">Free Delivery</h2>
                 <p>
-                    ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-                A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                    Register As a Meesho Supplier
+                    <br /><br />
+                    Sell online to 14 Cr+ customers at
+0% Commission
+Become a Meesho seller and grow your business across India
                 </p>
                 <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                    <a ></a>
                 </p>
             </section>
             <section class="col-md-4" aria-labelledby="librariesTitle">
-                <h2 id="librariesTitle">Get more libraries</h2>
+                <h2 id="librariesTitle">Cash On Delivery</h2>
                 <p>
-                    NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
+                     Register As a Meesho Supplier
+                     <br /><br />
+                    Sell online to 14 Cr+ customers at
+0% Commission
+Become a Meesho seller and grow your business across India
                 </p>
                 <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-                </p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
             </section>
             <section class="col-md-4" aria-labelledby="hostingTitle">
-                <h2 id="hostingTitle">Web Hosting</h2>
+                <h2 id="hostingTitle"></h2>
                 <p>
-                    You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                <img src="img1.jpg" style="width:350px;height:250px;" />
+
                 </p>
                 <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                    <a></a>
                 </p>
             </section>
         </div>
+       
+            <div class="row">
+               
+           <p align="center">   -----------------Top Category To Choose From--------------</p>
+
+             
+
+        </div>
+        <!-- place data list code-->
+
+
+
     </main>
 
 </asp:Content>

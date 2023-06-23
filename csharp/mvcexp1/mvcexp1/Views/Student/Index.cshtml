@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Student Page</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<!--csharp code symbol using -->
+@{
+    string username = "Akanksha";
+    int sub1 = 90;
+    int sub2 = 40;
+    int sub3 = 80;
+    int total = sub1 + sub2 + sub3;
+    float per = (total / 300.0f) * 100.0f;
+}
+<!--html code-->
+<hr/>
+
+<h1> Student Information</h1>                                              
+<p>Student Name :@username</p>
+<p>Student Marks :@total</p>
+<p>Studentpercentage :@per</p>
+<!--show current date inpliit function -->
+
+<p>@DateTime.Now</p>
+<p>@DateTime.IsLeapYear(2023)</p>
+<!--using paranthesis it is called as explicit function -->
+<p>Last week: @DateTime.Now - TimeSpan.FromDays(7)</p>
+<p>Last week: (@DateTime.Now - TimeSpan.FromDays(7))</p>
+
+
+@("<span>Hello World</span>")
+<span>Hello World</span>
+
+@Html.Raw("<span>Hello World</span>")
+
+@{
+var quote = "The future depends on what you do today. - Mahatma Gandhi";
+}
+
+
+@{
+    var inCSharp = true;
+    <p>Now in HTML, was in C# @inCSharp</p>
+}
+
+
+
+
+<!--@@ using -->
+
+<p>@@Username</p>
+@{
+    var p = new Person("Ashu", 22);
+}
+<p>Student Personal Details</p>
+Name:@(p.Name)<br />
+Age:@(p.Age)
+
