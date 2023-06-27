@@ -1,0 +1,53 @@
+<html>
+<body>
+
+<style>
+td{text-align:center;}
+    
+
+
+</style>
+<form name="f1"style="width:300;height:300;border:3px solid red;background-color:white;margin:20px;padding:20px;">
+
+<table width=100% align=center>
+
+<tr>
+<th><button id="n1">-</button></th>
+<th><button id="n2">-</button></th>
+<th><button id="n3">-</button></th>
+</tr>
+</table>
+<table width=50% align=center>
+<tr>
+<th><input type="button" value="submit" onclick="check()"; style="padding:10px;margin:60px;"/></th>
+</tr>
+</table>
+</form>
+</body>
+
+<script>
+
+var arr=new Array();
+var num=3;
+
+
+do 
+{
+var b1=Math.floor(Math.random()*3)+1;
+if(!arr.includes(b1))
+{
+arr.push(b1);
+}
+}
+while(arr.length<num);
+
+function check()
+{
+document.getElementById("n1").innerHTML=arr[0];
+document.getElementById("n2").innerHTML=arr[1];
+document.getElementById("n3").innerHTML=arr[2];
+
+}
+</script>
+</html>
+

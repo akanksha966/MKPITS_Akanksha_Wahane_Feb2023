@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model checkbox.Models.CheckModel
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <h1>Order Details</h1>
+                //checkbox code
+    <span>Tea: </span> @Html.CheckBoxFor(m=>m.tea,true)
+    <span>Loundary: </span> @Html.CheckBoxFor(m=>m.Loundary,false)
+    <span>Breakfast: </span> @Html.CheckBoxFor(m=>m.Breakfast,false)
+    <br/>
+
+    <input type="submit" value="ok" />
+
+
+}
+<p>
+@ViewBag.Tea
+<br />
+    @ViewBag.Loundry<br />
+    @ViewBag.Breakfast
+<br />
+</p>

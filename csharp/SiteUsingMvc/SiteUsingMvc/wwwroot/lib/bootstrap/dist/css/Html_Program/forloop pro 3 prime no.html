@@ -1,0 +1,49 @@
+<html>
+
+<style>
+td{text-align:center;}
+</style>
+<form name="f1"style="width:400;height:200;border:1px solid grey;">
+
+<table width=100% align=center>
+<tr>
+<td><input type=text id="t1"style="width:100%;padding:5px;text-align:center;font-size:20"/><td>
+</tr>
+</table>
+<table width=100%>
+<tr>
+
+<input type="button" value="submit" style="font-size:30px;margin:10px; " onclick="check();"/>
+</tr>
+</table>
+<script>
+function check()
+{
+var num;
+var counter=2;
+var flag=0;
+num=(document.getElementById("t1").value);
+
+for(counter=2;counter<num;counter++)
+{
+if(num%2==0)
+{
+flag=1;
+break;
+}
+}
+if(flag==0)
+{
+
+alert("prime no");
+}
+else
+{
+alert("not a prime no");
+}
+}
+</script>
+
+
+
+

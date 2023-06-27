@@ -1,0 +1,46 @@
+<html>
+<body>
+<form name="c1"style="width:400;height:200;border:1px solid blue;padding:20px;text-align:left;">
+
+Enter alphabet:<input type="text" id="n1"/><br><br>
+
+<input type="button" value="result" onclick="vowel();"/>
+</body>
+
+</form>
+
+<script>
+
+function vowel()
+{
+var char,result;
+
+char=(document.getElementById("n1").value);
+
+switch(char)
+{
+case 'a' :
+   result="a" ;
+    break;
+case 'e' :
+   result="e" ;
+    break;
+case 'i' :
+   result="i" ;
+    break;
+
+case 'o' :
+   result="o" ;
+    break;
+case 'u' :
+   result="u" ;
+    break;
+ drefault :
+   result="it is a not alphabet";
+   break;
+
+}
+alert("it is a alphabet" +result);
+}
+</script>
+</html>

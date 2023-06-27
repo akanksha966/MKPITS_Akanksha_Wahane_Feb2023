@@ -1,0 +1,27 @@
+<html>
+<body>
+enter year:<input type="text"name="n1"/><br><br>
+
+
+<input type="button"value="submit" onclick="check(document.getElementsByName('n1')[0].value);"/>
+
+</body>
+
+<script>
+function check(year)
+
+{
+if(((year%4 == 0)&&(year%100 != 0))||(year%400 == 0))
+{
+alert("Year is a leap year");
+}
+else
+{
+alert("year is not a leap year");
+}
+
+}
+</script>
+</html>
+
+

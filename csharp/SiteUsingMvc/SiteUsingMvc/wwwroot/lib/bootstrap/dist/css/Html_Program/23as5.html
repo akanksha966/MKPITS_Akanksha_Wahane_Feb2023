@@ -1,0 +1,55 @@
+<html>
+
+<body>
+
+Enter your name:<input type="text" id="name"/><br><br>
+
+Enter your last name:<input type="text" id="last"/><br><br>
+
+Enter your email id:<input type="text" id="email"/><br><br>
+
+Enter mobile no:<input type="text" id="mobile"/><br><br>
+
+
+<input type="button" value="Submit" onclick="submit();"/><br>
+
+
+
+<span id="total">First Name : </span><br>
+<span id="abc">Last Name: </span><br>
+<span id="fff">Email id : </span><br>
+<span id="ddd">Mobile no : </span><br>
+
+</body>
+
+
+
+<script language="javascript">
+
+
+  function submit()
+
+{
+var name2,last2,email2,mobile;
+name2=(document.getElementById("name").value);
+
+last2=(document.getElementById("last").value);
+
+
+
+email2=(document.getElementById("email").value);
+
+
+mobile=parseInt(document.getElementById("mobile").value);
+
+
+document.getElementById("total").innerHTML="Enter your first name: " +name2;
+document.getElementById("abc").innerHTML="Enter your last name: " +last2;
+document.getElementById("fff").innerHTML="Enter your email id: " +email2;
+document.getElementById("ddd").innerHTML="Enter your mobile no: " +mobile;
+
+}
+
+</script>
+
+</html>

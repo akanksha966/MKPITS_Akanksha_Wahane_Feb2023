@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model create_textbox.Models.addition
+<h1>Find opeartor</h1>
+
+@using (Html.BeginForm("Index", "Addition", FormMethod.Post))
+{
+    <b>Enter number 1</b>
+    @Html.TextBoxFor(k=>k.num1)
+    <br />
+    <br />
+
+    <b>Enter number 2</b>
+    @Html.TextBoxFor(k=>k.num2)
+    <br />
+    <br />
+
+    <b>Enter operator</b>
+    @Html.TextBoxFor(k=>k.op)
+    <br />
+    <br />
+
+    
+
+
+
+
+    <input type="submit" value="operator" />
+
+
+}
+<style>
+    .blue {
+        color: cadetblue
+    }
+</style>
+
+number1:@ViewBag.num1
+<br />
+number2:@ViewBag.num2
+<br />
+
+Result is:@ViewBag.result
+<br />

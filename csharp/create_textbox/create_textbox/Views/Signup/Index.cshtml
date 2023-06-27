@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!--signup index file-->
+@model create_textbox.Models.Signup
+
+<h1>SignUp Form</h1>
+@using(Html.BeginForm("Index","Signup",FormMethod.Post))
+{
+
+    <!--textbox code-->
+
+    <b>Enter Username</b>
+    @Html.TextBoxFor(s=>s.username,new{@Value="Enter Name",@class="blue"})
+    <br/>  <br/>
+    <b>Enter Password</b>
+    @Html.PasswordFor(s=>s.password)
+
+    <br />
+    <br />
+    <input type="submit" value="Signup" />
+
+    
+}
+<style>
+   .blue{color:blue}
+</style>
+
+
+Name:@ViewBag.username<br/> <br/>
+Password:@ViewBag.password <br/> <br/>
+
+
+<!-- store username and password variable call that variable-->

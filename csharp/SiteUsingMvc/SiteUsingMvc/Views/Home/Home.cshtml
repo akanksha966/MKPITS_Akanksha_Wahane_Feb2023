@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <title>mkpits</title>
+
+    <style>
+
+        .bg {
+            background-image: url('data:image/jpeg;base64,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');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            padding:40px;
+        }
+    </style>
+</head>
+<body>
+  <div class="bg" style="height:350px">
+    <h1 style="color:white;padding-left:50px;padding-top:25px;font-size:48px;">
+        Learning Today,<br>
+        Leading Tomorrow
+    </h1>
+    <h1 style="color:white;padding-left:50px;font-size:24px;">We are a team of highly experienced people helping freshers to secure job in IT.</h1>
+
+    <button style="margin-left:50px;padding:10px;font-size:20px;border-radius:30px;">Get Started</button>
+  </div>
+
+    <div class="container-fluid" style="padding:20px;">
+
+        <div class="row">
+            <div class="col-md-6">
+                    <h1>
+                        <b>Welcome to mkpit services</b>
+                    </h1>
+                <p>
+
+                    <b>MKP IT Services</b> is a leading training, job and staffing services provider in Nagpur. We have over a decade of presence now. Previously we were known as <b>MK Placements and Education Services</b> We also provide services in Pune, Hyderabad, Bangalore, Mumbai, Indore, Bhopal and more cities. Our valuable services are:
+                </p>
+
+                <ul type="a">
+                    <li> <b>Training and Internship</b>: We conduct high end training and provide intership program to freshers to strengthen them with corporate required skills</li><br>
+                    <li><b>Campus Placement Services</b>: We conduct placements services for freshers, skilled and semi-skilled candidates</li>
+                    <br/>
+                    <li><b>Lateral Placement Services</b>: Placement services for junior, mid level and senior level recruitment</li>
+                    <br>
+                    <li><b>Job fairs at College Level</b>: Conduct job fairs for aspiring students at college level</li>
+                    <br>
+
+                    <li><b>Campus Recruitment Training</b>: We conduct workshops on soft skills, written skills, mock interview preparations and training, personality development training</li>
+                    <br>
+
+                    <p>We provide excellent Placement Consultancy to our clients. Understanding the requirements and skills of our job seekers, we guide them in order to assure their maximum satisfaction. Our Placement Consultancy provides a correct guiding path to the aspirants that will help them grow at the individual as well as professional level.</p>
+                    
+                    <p>We carefully evaluate the skills, talent and interest of our aspirants and accordingly advice them with the best companies and job profiles. Our team is well upgraded with the latest and up to date developments taking place in diverse industries which helps in providing the most effective and productive outcomes.</p>
+                   
+                    <p>We have had a successful track record of meeting the vast manpower requirements of varied industries. In fact, we excel in providing correct direction in case of overseas placement by providing prospective options to the job seekers that facilitate smooth overseas placement of our aspirants. We divert all our efforts in ensuring maximum customer satisfaction.</p>
+                    
+                </ul>
+            </div>
+        
+            <div class="col-md-6">
+                <img src="https://mkpits.in/assets/img/about.jpg" height=550 width=100% style="padding:30px;" />
+            </div>
+        </div>
+    </div>
+
+    <br />
+      
+
+    <div class="container-fluid" style="padding:20px;background-color:aliceblue;">
+
+          <div class="row">
+            <div class="col-md-3">
+                <h1 style="color:green">10321</h1>
+                <b>Students Placed</b>
+            </div>
+             <div class="col-md-3">
+                <h1 style="color:green">9</h1>
+                <b>Years of service</b>
+             </div>   
+              <div class="col-md-3">
+                <h1 style="color:green">42</h1>
+               <b> Events Conducted</b>
+              </div>      
+              <div class="col-md-3">
+                <h1 style="color:green">32</h1>
+                <b>Clients Tieup</b>
+              </div>   
+                    
+                    
+                
+          </div>
+
+
+
+    </div>
+
+</body>

@@ -1,0 +1,35 @@
+--doc---
+<html>
+
+<h1>MKPITS</h1>
+<hr>
+
+enter length:<input type="text" id="num1"/><br><br>
+
+enter breadth:<input type="text"id="num2"/><br><br> 
+<input type="button" value="area" onclick="lenbreadth();"/>
+
+<br><span id="res">area: </span>
+</body>
+
+
+
+<script language="javascript">
+
+    function lenbreadth()
+
+
+
+{
+
+
+           var number1,number2,result;
+              length=parseInt(document.getElementById("num1").value);
+               breadth=parseInt(document.getElementById("num2").value);
+
+               area=length*breadth;
+                 document.getElementById("res").innerHTML="total area :"  +area;
+}
+
+</script>
+</html>

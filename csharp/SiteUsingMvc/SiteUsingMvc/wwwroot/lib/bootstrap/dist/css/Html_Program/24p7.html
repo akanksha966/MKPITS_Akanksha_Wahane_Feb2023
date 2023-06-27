@@ -1,0 +1,44 @@
+<html>
+
+<body>
+
+Enter number 1:<input type="text"id="aaa"/><br><br>
+Enter number 2:<input type="text"id="bbb"/><br><br>
+
+Enter number 3:<input type="text"id="ccc"/><br><br>
+
+<input type="button"value="Greatest" onclick="totalnumber();"/>
+
+
+</body>
+
+<script language="javascript">
+
+
+function totalnumber()
+{
+
+var num1,num2,num3;
+num1=(document.getElementById("aaa").value);
+num2=(document.getElementById("bbb").value);
+
+num3=(document.getElementById("ccc").value);
+
+if(num1>num2 && num1>num3)
+{
+alert("num1 is greatest ");
+}
+else if(num2>num3)
+{
+alert("num2 is greatest ");
+}
+
+else
+{
+alert("num3 is greatest ");
+}
+}
+</script>
+</html>
+
+

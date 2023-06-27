@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model create_textbox.Models.PercentStud
+@using (Html.BeginForm("Index", "Percentage", FormMethod.Post))
+{
+    <b>Maths : </b> @Html.TextBoxFor(m => m.Maths)
+    <br />
+    <br />
+    <b>Science : </b>
+
+    @Html.TextBoxFor(m => m.Science)
+    <br />
+    <br />
+    <b>English : </b>
+
+    @Html.TextBoxFor(m => m.English)
+    <br />
+    <br />
+    <b>SST : </b>
+
+    @Html.TextBoxFor(m => m.SST)
+    <br />
+    <br />
+    <b>Hindi : </b>
+
+    @Html.TextBoxFor(m => m.Hindi)
+    <br />
+    <br />
+
+    <input type="submit" value="Calculate">
+    <br />
+    <br />
+}
+
+Marks Calculation Details
+<br />
+total = @ViewBag.total
+<br />
+Percentage = @ViewBag.percent%
+<br />
+Grade = @ViewBag.grade
+<br />

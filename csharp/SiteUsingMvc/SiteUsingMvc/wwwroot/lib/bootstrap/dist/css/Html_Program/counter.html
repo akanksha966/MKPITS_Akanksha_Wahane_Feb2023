@@ -1,0 +1,27 @@
+<html>
+<input type="text" id="countdown"/>
+
+<input type="button" value="count" onclick = "set();"/>
+<script>
+function set()
+var timeleft ;
+var downloadTimer;
+setinterval(function()
+{
+while(timeleft<=0)
+{
+clearInterval(downloadTimer);
+document.getElementById("countdown").innerHTML ="Finished";
+
+}
+else
+{
+document.getElementById("countdown").innerHTML = timeleft + "second remaining";
+}
+timeleft=timeleft-1;
+
+
+},1000);
+}
+</script>
+

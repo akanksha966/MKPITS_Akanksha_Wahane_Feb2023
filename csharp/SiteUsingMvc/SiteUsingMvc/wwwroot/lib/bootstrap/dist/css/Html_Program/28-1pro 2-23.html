@@ -1,0 +1,54 @@
+<html>
+enter marks:<input type="text"name="n1"/><br><br>
+
+<input type="button"value="submit"onclick="grade(document.getElementsByName('n1')[0].value);"/>
+
+</body>
+<script>
+
+function grade(marks)
+{
+if(marks>=90 && marks<=100)
+{
+alert("you have received S grade");
+}
+else if(marks>=80 &&marks<90)
+{
+alert("you have received A grade");
+}
+899
+else if(marks >= 70 && marks < 80)
+{
+alert("you have received B grade");
+
+}
+
+else if(marks >= 60 && marks < 70)
+{
+alert("you have received C grade");
+}
+
+else if(marks>=50 &&marks<50)
+{
+alert("you have received D grade");
+}
+
+else if(marks >= 40 && marks < 50)
+{
+alert("you have received E grade");
+}
+else if(marks>=0 && marks<40)
+{
+alert("you have failed");
+}
+else
+{
+alert("invalid marks");
+}
+}
+</script>
+</html>
+
+
+
+

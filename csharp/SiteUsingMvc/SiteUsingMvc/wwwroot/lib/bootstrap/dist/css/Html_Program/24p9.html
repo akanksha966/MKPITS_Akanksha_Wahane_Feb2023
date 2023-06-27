@@ -1,0 +1,69 @@
+<html>
+
+<body>
+
+Enter mark in math:<input type="text" id="math"/><br><br>
+
+Enter mark in phy:<input type="text" id="phy2"/><br><br>
+
+Enter mark in che:<input type="text" id="chemi"/><br><br>
+<input type="button" value="Result" onclick="submit();"/><br>
+
+
+<span id="total">Total: </span><br>
+<span id="abc">percentage: </span><br>
+<span id="fff">Grade : </span><br>
+cc
+</body>
+
+<script language="javascript">
+
+
+  function submit()
+
+    {
+var math,phy,chemi,total;
+math=parseInt(document.getElementById("math").value);
+
+phy=parseInt(document.getElementById("phy2").value);
+
+chemi=parseInt(document.getElementById("chemi").value);
+total=math+phy+chemi
+perc=total/300*100
+
+
+
+
+document.getElementById("total").innerHTML="total: "+total;
+
+document.getElementById("abc").innerHTML="Percentage: "+perc;
+
+
+
+if(perc>=75)
+{
+document.getElementById("fff").innerHTML="grade:distinction";
+}
+else if(perc>60 && perc<75)
+{
+document.getElementById("fff").innerHTML="grade:first";
+}
+else
+{
+document.getElementById("fff").innerHTML="grade:fail";
+
+}
+}
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model productlistmvc.Models.productname
+<h1>Find opeartor</h1>
+
+@using (Html.BeginForm("Index", "Product", FormMethod.Post))
+{
+    <b>Enter ProductName</b>
+    @Html.TextBoxFor(k=>k.Name)
+    <br />
+    <br />
+
+    <b>Product Price</b>
+    @Html.TextBoxFor(k=>k.pprice)
+    <br />
+    <br />
+
+    <b>Quantity</b>
+    @Html.TextBoxFor(k=>k.quantity)
+    <br />
+    <br />
+
+    
+
+    
+    <input type="submit" value="Order" />
+
+
+}
+<style>
+    .blue {
+        color: cadetblue
+    }
+</style>
+ProductName:@ViewBag.Name<br/>
+ProductPrice:@ViewBag.pprice<br />
+Quantity:@ViewBag.quantity<br />
+TotalPrice:@ViewBag.totalprice

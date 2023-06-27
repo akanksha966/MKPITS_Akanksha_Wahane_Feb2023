@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model checkbox.Models.Calculatemodel
+@using(Html.BeginForm("Index","Calculate",FormMethod.Post))
+{
+    <b>Calculate some information</b><br/>
+    <span>number1:</span>@Html.TextBoxFor(m=>m.number1)<br/>
+    <span>number2:</span> @Html.TextBoxFor(m=>m.number2)<br/>
+    <span>addition:</span>@Html.CheckBoxFor(m=>m.add)
+    <span>substraction:</span>@Html.CheckBoxFor(m=>m.sub)
+    <span>multiplication:</span> @Html.CheckBoxFor(m=>m.multiply)
+    <input type="submit"value="OK"/>
+
+
+    <br />
+
+    <br />
+
+}
+<h1>Calculate Result</h1><br/>
+<b>addition is:</b>@ViewBag.result1<br/>
+
+<b>substration  is:</b>@ViewBag.result2
+<br />
+
+<b>multiplication is:</b>@ViewBag.result3
+<br />

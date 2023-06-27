@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model create_textbox.Models.Percentage
+<h1>Find opeartor</h1>
+
+@using (Html.BeginForm("Result", "FinalResult", FormMethod.Post))
+{
+    <b>Enter number 1</b>
+    @Html.TextBoxFor(k=>k.num1)
+    <br />
+    <br />
+
+    <b>Enter number 2</b>
+    @Html.TextBoxFor(k=>k.num2)
+    <br />
+    <br />
+
+    <b>Enter number 3</b>
+    @Html.TextBoxFor(k=>k.num3)
+    <br />
+    <br />
+
+ <input type="submit" value="Submit" />
+
+
+}
+<style>
+    .blue {
+        color: cadetblue
+    }
+</style>
+num1:@ViewBag.num1
+<br />
+num2:@ViewBag.num2
+<br />
+num3:@ViewBag.num3
+<br />
+
+Total:@ViewBag.total<br/>
+Percentage:@ViewBag.percent<br/>
+Grade:@ViewBag.grade<br/>

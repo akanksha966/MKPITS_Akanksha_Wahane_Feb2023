@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model radiobutton.Models.Class
+<h1 style="color:green">Employee Details</h1><br/>
+
+@using(Html.BeginForm("Index","Employee",FormMethod.Post))
+{
+   
+    <span >Employee Name</span>@Html.TextBoxFor(m=>m.empname)<br/><br/>
+    <span>Salary &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> @Html.TextBoxFor(m=>m.salary)<br /><br/>
+    <span>Hra</span> @Html.CheckBoxFor(m=>m.hra,true)
+     <span>Da</span> @Html.CheckBoxFor(m=>m.da,false)
+    <span>Ta</span> @Html.CheckBoxFor(m=>m.ta,false)<br/>
+    <input type="submit"value="OK"/>
+
+
+
+
+}
+<h3>Calculation Is</h3>
+Total Is:@ViewBag.final

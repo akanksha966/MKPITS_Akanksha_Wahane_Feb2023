@@ -1,0 +1,52 @@
+<html>
+
+
+<body>
+
+Enter your product name:<input type="text" id="product"/><br><br>
+
+Enter total rate:<input type="text" id="rate"/><br><br>
+
+Enter your quantity:<input type="text" id="quantity"/><br><br>
+
+<input type="button" value="Ok" onclick="totalnumber();"/><br>
+
+
+
+<span id="total">Total Amount : </span><br>
+
+</body>
+
+
+
+<script language="javascript">
+
+ 
+    function totalnumber()
+{
+
+
+
+
+var product,rate,quantity,final_total;
+
+product=parseInt(document.getElementById("product").value);
+
+rate=parseInt(document.getElementById("rate").value);
+
+quantity=parseInt(document.getElementById("quantity").value);
+
+final_total=rate*quantity
+
+document.getElementById("total").innerHTML="Total Amount " +final_total;
+
+
+
+
+
+}
+
+
+
+</script>
+</html>
