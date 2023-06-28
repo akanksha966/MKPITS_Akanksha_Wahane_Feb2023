@@ -1,0 +1,93 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1 style="color:green">Attendense Sheet</h1>
+<p ><b>Today Date Is:</b> @DateTime.Today</p>
+@model Attendense.Models.AttendenceModel
+@using(Html.BeginForm("Index","attendense",FormMethod.Post))
+{
+    <b>Select Batch &nbsp;&nbsp;</b> <span>Dotnet &nbsp;</span>@Html.CheckBoxFor(s=>s.dotnet,true)
+    <span>Java &nbsp;</span>@Html.CheckBoxFor(s=>s.java,false)<br/><br/>
+
+    <b>Batch Is:</b>
+
+    @ViewBag.dotnet
+    <br />
+    <b>Batch Is:</b>@ViewBag.java
+    <br />
+    <hr style="border:dashed" />
+
+
+
+    <h3 style="color:green">Student Sheet:</h3>
+    <ol type=1>
+        <li>Akanksha @Html.CheckBoxFor(s=>s.Akanksha,false)</li>
+        <li>Rupali &nbsp;&nbsp;&nbsp; @Html.CheckBoxFor(s=>s.Rupali,false)</li>
+        <li>Sherya &nbsp;&nbsp; @Html.CheckBoxFor(s=>s.Sherya,false)</li>
+        <li>Tanu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Html.CheckBoxFor(s=>s.Tanu,false)</li>
+        <li>Mayuri &nbsp;&nbsp; @Html.CheckBoxFor(s=>s.Mayuri,false)</li>
+
+
+
+
+    </ol><br />
+    <b>Name is: @ViewBag.Akanksha</b><br/>
+    <b>Name is: @ViewBag.Rupali</b><br/>
+    <b>Name is: @ViewBag.Sherya</b>
+    <br />
+    <b>Name is: @ViewBag.Tanu</b>
+    <br />
+    <b>Name is: @ViewBag.Mayuri</b>
+    <br />
+    
+    <hr style="border:dashed"/>
+    <h3 style="color:green">Present Student :</h3>
+
+    <b>Present Is</b> @ViewBag.value<br/>
+    <b>Present Is</b> @ViewBag.value1
+    <br />
+    <b>Present Is</b> @ViewBag.value2
+    <br />
+    <b>Present Is</b> @ViewBag.value3
+    <br />
+    <b>Present Is</b> @ViewBag.value4<br/><br/>
+    <p><b>Today Attendence Sheet For All Present Students:</b></p> @ViewBag.detail2
+    <br />
+
+
+   
+
+
+
+
+
+    <hr style="border:dashed" />
+    <h3 style="color:green">Absent Student:</h3>
+
+
+
+    <b>Absent Is:</b> @ViewBag.Absent<br/>
+    <b>Absent Is:</b> @ViewBag.Absent1
+    <br />
+    <b>Absent Is:</b> @ViewBag.Absent2
+    <br />
+    <b>Absent Is:</b> @ViewBag.Absent3
+    <br />
+    <b>Absent Is:</b> @ViewBag.Absent4
+    <br /><br/>
+    <p><b>Today Attendence Sheet For All Absent Students:</b></p> @ViewBag.details<br/><br/>
+    <hr style="border:dashed" />
+
+    <b>Percentage Is:</b><br/><br/>
+
+
+
+   
+
+
+    <input type="submit" value="submit"/><br/>
+
+}
+

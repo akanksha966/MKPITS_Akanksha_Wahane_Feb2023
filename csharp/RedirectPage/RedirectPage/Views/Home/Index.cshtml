@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model RedirectPage.Models.usermodel
+@using (Html.BeginForm("Index","Home",FormMethod.Post))
+{
+    <span>Enter Your Name</span>
+    @Html.TextBoxFor(m=>m.username)<br/>
+    <input type="submit" value="OK"/>
+
+}
+<hr/>
+<strong>Strongly typed value</strong> @Html.DisplayFor(m=>m.username)
+<!--or Display Method-->
+<!--display for is used to display the -->
+
+<br/>
+<strong>Loosely &nbps; Typed Value</strong>@Html.Display("username")
+<!--username id property name-->

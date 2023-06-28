@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model dropdown.Models.UserModel
+<h1>Display dropdown</h1>
+@using(Html.BeginForm("Index","Home",FormMethod.Post))
+{
+    @Html.DropDownList("getcountry",new SelectList(Enum.GetValues(typeof(country))),"select country");
+    <input type="submit"value="submit"/>
+
+}
+<hr/>
+country selected:@ViewBag.country

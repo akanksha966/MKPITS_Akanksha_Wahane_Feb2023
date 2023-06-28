@@ -28,10 +28,22 @@ namespace radiobutton.Controllers
             {
                 ViewBag.subject2 = "Java";
             }
-            return View();  
+            TempData["username"]=sign.username;
+            return Redirect("/Signup/Create");
+            //reeirect to internal url
+
+            //return View();  
 
 
 
+        }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
         }
     }
 }

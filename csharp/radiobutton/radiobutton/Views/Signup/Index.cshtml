@@ -4,6 +4,8 @@
 @{
 }
 @model radiobutton.Models.sign
+@Html.ActionLink("Report Page","Index","Report")
+<!--yek control se dusre controller pe jayenga-->
 @using(Html.BeginForm("Index","Signup",FormMethod.Post))
 {
     <span>Enter username:</span>@Html.TextBoxFor(m=>m.username)<br/>
@@ -40,8 +42,8 @@ subject1:@ViewBag.subject1
 subject2:@ViewBag.subject2
 <br />
 <br />
-
-
+<!--Redirect In Same Controller-->
+@Html.ActionLink("Contact Page","Contact")
 
 
 
