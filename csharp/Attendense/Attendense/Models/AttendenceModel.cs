@@ -28,7 +28,15 @@ namespace Attendense.Models
         public string details { get; set; }
         public string detail2 { get; set; }
 
-        public double percent { get; set; }    
+        public float percent1 { get; set; } 
+        public float percent2 { get; set; }
+        public float percent3 { get; set; }
+        public float percent4 { get; set; }
+        public float percent5 { get; set; }
+        public float percent { get; set; }
+        public double count { get; set; }
+
+
 
 
 

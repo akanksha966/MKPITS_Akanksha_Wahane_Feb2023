@@ -8,6 +8,7 @@
 @model Attendense.Models.AttendenceModel
 @using(Html.BeginForm("Index","attendense",FormMethod.Post))
 {
+    
     <b>Select Batch &nbsp;&nbsp;</b> <span>Dotnet &nbsp;</span>@Html.CheckBoxFor(s=>s.dotnet,true)
     <span>Java &nbsp;</span>@Html.CheckBoxFor(s=>s.java,false)<br/><br/>
 
@@ -19,15 +20,23 @@
     <br />
     <hr style="border:dashed" />
 
-
+   
+    
+        
+    
 
     <h3 style="color:green">Student Sheet:</h3>
+   
+
     <ol type=1>
+        
         <li>Akanksha @Html.CheckBoxFor(s=>s.Akanksha,false)</li>
         <li>Rupali &nbsp;&nbsp;&nbsp; @Html.CheckBoxFor(s=>s.Rupali,false)</li>
         <li>Sherya &nbsp;&nbsp; @Html.CheckBoxFor(s=>s.Sherya,false)</li>
         <li>Tanu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Html.CheckBoxFor(s=>s.Tanu,false)</li>
         <li>Mayuri &nbsp;&nbsp; @Html.CheckBoxFor(s=>s.Mayuri,false)</li>
+    
+    
 
 
 
@@ -80,7 +89,8 @@
     <p><b>Today Attendence Sheet For All Absent Students:</b></p> @ViewBag.details<br/><br/>
     <hr style="border:dashed" />
 
-    <b>Percentage Is:</b><br/><br/>
+   // <b>Percentage Is:</b><br/><br/>
+   <p>Percentage is:</p> @ViewBag.count
 
 
 

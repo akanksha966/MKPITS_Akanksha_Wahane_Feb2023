@@ -19,7 +19,6 @@ namespace Attendense.Controllers
             ViewBag.Sherya = "Sherya";
             ViewBag.Tanu = "Tanushree";
             ViewBag.Mayuri = "Mayuri";
-            
 
 
 
@@ -29,12 +28,13 @@ namespace Attendense.Controllers
 
 
 
-            if (model.Akanksha==true)
+
+            if (model.Akanksha == true)
             {
-                model.value=model.Akanksha.ToString();
-                ViewBag.value = "Akanksha";   
+                model.value = model.Akanksha.ToString();
+                ViewBag.value = "Akanksha";
             }
-            else if(model.Akanksha==false)
+            else if (model.Akanksha == false)
             {
                 model.Absent = model.Akanksha.ToString();
                 ViewBag.absent = "Akanksha";
@@ -52,7 +52,7 @@ namespace Attendense.Controllers
                 ViewBag.absent1 = "Rupali";
 
             }
-            if (model.Sherya== true)
+            if (model.Sherya == true)
             {
                 model.value2 = model.Sherya.ToString();
                 ViewBag.value2 = "Sherya";
@@ -93,15 +93,30 @@ namespace Attendense.Controllers
             {
                 ViewBag.detail2 = "No one is Present";
             }
+            ViewBag.percent1 = null;
+            ViewBag.percent2 = null;
+            ViewBag.percent3 = null;
+            ViewBag.percent4 = null;
+            ViewBag.percent5 = null;
+            ViewBag.percent = null;
 
-            //for(bool i=true; i==model.Mayuri == true || model.Tanu == true || model.Akanksha == true || model.Rupali == true || model.Sherya == true)
-            //{
-            //    bool per=i==true*500/100.ToString();    
-            //}
 
 
 
-                return View();  
+
+            
+            //"percent code";
+            for(int i = 0; i<model.count;i++)
+            {
+                if (model.Mayuri == true || model.Tanu == true || model.Akanksha == true || model.Rupali == true || model.Sherya == true)
+                {
+                  ViewBag.count=ViewBag.count+1;    
+                }
+
+
+            }
+
+            return View();  
 
         }
     }
