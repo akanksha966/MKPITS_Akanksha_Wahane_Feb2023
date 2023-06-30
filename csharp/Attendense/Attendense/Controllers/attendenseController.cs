@@ -106,15 +106,19 @@ namespace Attendense.Controllers
 
             
             //"percent code";
-            for(int i = 0; i<model.count;i++)
-            {
-                if (model.Mayuri == true || model.Tanu == true || model.Akanksha == true || model.Rupali == true || model.Sherya == true)
-                {
-                  ViewBag.count=ViewBag.count+1;    
-                }
+            //for(int i = 0; i<model.count;i++)
+            //{
+            //    if (model.Mayuri == true || model.Tanu == true || model.Akanksha == true || model.Rupali == true || model.Sherya == true)
+            //    {
+            //      ViewBag.count=ViewBag.count+1;    
+            //    }
 
 
-            }
+            //}
+            //if(model.Mayuri == true)
+            //{
+                
+            //}
 
             return View();  
 

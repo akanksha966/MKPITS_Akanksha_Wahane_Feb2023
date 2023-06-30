@@ -34,7 +34,7 @@ namespace Attendense.Models
         public float percent4 { get; set; }
         public float percent5 { get; set; }
         public float percent { get; set; }
-        public double count { get; set; }
+        public double count = 0;
 
 
 
