@@ -15,7 +15,7 @@ namespace Attendense.Controllers
             ViewBag.dotnet = model.dotnet;
             ViewBag.java = null;
             ViewBag.Akanksha = "Akanksha";
-            ViewBag.Mahesh = "Rupali";
+            ViewBag.Rupali = "Rupali";
             ViewBag.Sherya = "Sherya";
             ViewBag.Tanu = "Tanushree";
             ViewBag.Mayuri = "Mayuri";

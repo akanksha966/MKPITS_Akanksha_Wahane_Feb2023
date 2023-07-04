@@ -11,7 +11,7 @@ namespace fendahl
 {
     public static class ProductStore
     {
-        private static string connectionstring = "server=.\\sqlexpress;integrated security=true;database=Fendahl;";
+        private static string connectionstring = "server=.\\sqlexpress;integrated security=true;database=fendhal;";
         public static SqlConnection GetConnection()
         {
             SqlConnection con=new SqlConnection(connectionstring);

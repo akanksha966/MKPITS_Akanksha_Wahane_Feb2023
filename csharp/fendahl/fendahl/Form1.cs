@@ -58,9 +58,7 @@ namespace fendahl
             comboBox1.ValueMember = "Product_Category_ID";
 
 
-            //textBox3.Text = CGST.ToString();
-            //textBox4.Text = SGST.ToString();
-            //textBox5.Text = Convert.ToString(Convert.ToInt32(textBox3.Text) + Convert.ToInt32(textBox4.Text));
+           
 
 
         }

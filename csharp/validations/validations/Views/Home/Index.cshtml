@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model validations.Models.StudentModel
+@using (Html.BeginForm("StudentDetails","Home",FormMethod.Post))
+{
+    <ol>
+        <li>
+            @Html.LabelFor(m=>m.Name)
+            @Html.TextAreaFor(m=>m.Name)
+            @Html.ValidationMessageFor(m=>m.Name)
+        </li>
+
+        <li>
+            @Html.LabelFor(m=>m.Age)
+            @Html.TextAreaFor(m=>m.Age)
+            @Html.ValidationMessageFor(m=>m.Age)
+        </li>
+    </ol>
+    <input type="submit" value="OK"/>
+}
+
+<h3 style="color:green">Student Details</h3>
+<h4 style="color:green">
+<b>Name: @ViewBag.name</b><br />
+<b>Age: @ViewBag.age</b><br />
+</h4>

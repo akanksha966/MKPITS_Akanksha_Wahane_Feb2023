@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model validations.Models.usermodel
+@using (Html.BeginForm("Result", "Home", FormMethod.Post))
+{
+    <ol>
+        <li>
+            @Html.LabelFor(m=>m.Name)
+            @Html.TextAreaFor(m=>m.Name)
+            @Html.ValidationMessageFor(m=>m.Name)
+        </li>
+
+        <li>
+            @Html.LabelFor(m=>m.Age)
+            @Html.TextAreaFor(m=>m.Age)
+            @Html.ValidationMessageFor(m=>m.Age)
+        </li>
+
+        <li>
+            @Html.LabelFor(m=>m.Email)
+            @Html.TextAreaFor(m=>m.Email)
+            @Html.ValidationMessageFor(m=>m.Email)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.ConfirmEmail)
+            @Html.TextBoxFor(m => m.ConfirmEmail)
+            @Html.ValidationMessageFor(m => m.ConfirmEmail)
+        </li>
+    </ol>
+    <input type="submit" value="OK" />
+}
+
+<h3 style="color:green">Student Details</h3>
+<h4 style="color:green">
+    <b>Name: @ViewBag.name</b><br />
+    <b>Age: @ViewBag.age</b><br />
+    <b>Email: @ViewBag.email</b><br />
+
+
+
+</h4>
