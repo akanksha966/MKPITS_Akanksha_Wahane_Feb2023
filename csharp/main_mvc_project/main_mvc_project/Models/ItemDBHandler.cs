@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 
 using System.Configuration;
 using System.Collections;
+using System.Diagnostics;
 
 namespace main_mvc_project.Models
 {
@@ -67,6 +68,45 @@ namespace main_mvc_project.Models
                 return false;
             }
         }
+        public bool UpdateItem(ItemModel item)
+        {
+            connection();
+            string query = "update ItemList set Name=' " + item.Name + " ', Category= '" + item.Category + "',price=" + item.Price + " where id = " + item.ID;
+            SqlCommand cmd=new SqlCommand(query, con);
+            con.Open();
+            int i = cmd.ExecuteNonQuery();
+            con.Close();
+            if(i >= 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+       
+        }
+        public bool DeleteItem(ItemModel item)
+        {
+            connection();
+
+            string query = "delete from ItemList where id=" + item.ID + "";
+            SqlCommand cmd = new SqlCommand(query, con);
+
+            con.Open();
+            int i = cmd.ExecuteNonQuery();
+            con.Close();
+            if(i >= 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+       
 
     }
 
