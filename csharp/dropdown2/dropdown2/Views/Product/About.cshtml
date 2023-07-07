@@ -1,0 +1,53 @@
+﻿<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#Productcategory").change(function ()
+        {
+                $("#ProductName").empty();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("getproduct")',
+                dataType: 'json',
+                data: { id: $("#Productcategory").val() },
+                success: function (city) {
+
+                    $.each(city, function (i, productname) {
+                        $("#ProductName").append('<option value="'
+                            + productname.Value + '">'
+                            + productname.Text + '</option>');
+                    });
+                },
+                error: function (ex) {
+                    alert('Failed.' + ex);
+                }
+            });
+            return false;
+        })
+    });
+
+</script>
+
+
+
+
+@model dropdown2.Models.CustomerDetails
+<div class="form-group">
+    @Html.LabelFor(model => model.Productcategory, htmlAttributes: new { @class = "control-label col-md-2" })
+    <div class="col-md-10">
+        @Html.DropDownListFor(model => model.Productcategory, ViewBag.state as List<SelectListItem>, new { style = "width: 200px;" })
+
+        @Html.ValidationMessageFor(model => model.Productcategory, "", new { @class = "text-danger" })
+    </div>
+</div>
+
+
+
+<div class="form-group">
+    @Html.LabelFor(model => model.ProductName, htmlAttributes: new { @class = "control-label col-md-2" })
+    <div class="col-md-10">
+        @Html.DropDownListFor(model => model.ProductName, new SelectList(string.Empty, "Value", "Text"), "--Select City--", new { style = "width:200px" })
+
+        @Html.ValidationMessageFor(model => model.ProductName, "", new { @class = "text-danger" })
+    </div>
