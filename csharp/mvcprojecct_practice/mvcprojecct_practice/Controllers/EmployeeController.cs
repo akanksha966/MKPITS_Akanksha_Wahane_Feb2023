@@ -34,7 +34,7 @@ namespace mvcprojecct_practice.Controllers
                 {
                     ViewBag.message = "Insert successfully";
                     ModelState.Clear();
-                    RedirectToAction("Index");  
+                    return RedirectToAction("Index");  
                 }
                 else
                 {
@@ -44,6 +44,55 @@ namespace mvcprojecct_practice.Controllers
             }
             return View();
 
+        }
+        [HttpGet]
+        public ActionResult Edit (int Id)
+        {
+            EmployeeDBHandler handler=new EmployeeDBHandler();  
+           //return View(handler.GetEmployees().Find(model=>model.Id==Id));
+            return View(handler.GetEmployees().Find(model => model.Id==Id));
+
+
+
+        }
+        [HttpPost]
+        public ActionResult Edit (EmployeeModel model,int id)
+        {
+           try
+            {
+                EmployeeDBHandler handler = new EmployeeDBHandler();
+                handler.updateemployee(model);
+                return RedirectToAction("Index");
+               
+            }
+            catch
+            {
+                return View();
+            }
+        }
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+            EmployeeDBHandler handler=new EmployeeDBHandler();
+            return View(handler.GetEmployees().Find(model=>model.Id==id));
+        }
+        [HttpPost]
+        public ActionResult Delete(EmployeeModel model,int id)//it is post method to click the button and go to the another page
+        {
+            try
+            {
+                EmployeeDBHandler handler = new EmployeeDBHandler();
+                handler.deleteitem(model);
+                return RedirectToAction("Index");
+
+            }
+            catch { return View(); }
+          
+        }
+        public ActionResult Details(int id)
+        {
+            EmployeeDBHandler handler=new EmployeeDBHandler();
+            return View(handler.GetEmployees().Find(model=>model.Id==id));
         }
     }
 }

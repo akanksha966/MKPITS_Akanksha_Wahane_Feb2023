@@ -32,10 +32,10 @@ namespace mvcprojecct_practice.Models
             {
                 emp.Add(new EmployeeModel
                 {
-                    Id = Convert.ToInt32(dr["Id"]),
-                    Name = Convert.ToString(dr["Name"]),
-                    Adreess = Convert.ToString(dr["Adreess"]),
-                    date = Convert.ToDateTime(dr["date"]),
+                    Id = Convert.ToInt32(dr["ID"]),
+                    EName = Convert.ToString(dr["EName"]),
+                    Addres = Convert.ToString(dr["Addres"]),
+                    date = Convert.ToDateTime(dr["Date"]),
                 });
                
 
@@ -48,7 +48,7 @@ namespace mvcprojecct_practice.Models
        public bool insertemployee(EmployeeModel model)
         {
             connection();
-            string query = "insert into EmployeeDetail values('" + model.Id + "','" + model.Name + "','" + model.Adreess + "','" + model.date + "')";
+            string query = "insert into EmployeeDetail values('" + model.EName + "','" + model.Addres + "','" + model.date + "')";
            SqlCommand cmd=new SqlCommand(query, con);   
            con.Open();
             int i=cmd.ExecuteNonQuery();
@@ -63,6 +63,43 @@ namespace mvcprojecct_practice.Models
             }
 
         }
+        public bool updateemployee(EmployeeModel model)
+        {
+            connection() ;
+            string query = "update  EmployeeDetail set EName= '" + model.EName + "',Addres ='" + model.Addres + "' where ID='" + model.Id + "'";
+            SqlCommand cmd=new SqlCommand (query, con); 
+            con.Open();
+            int i=cmd.ExecuteNonQuery();
+            con.Close();
+            if(i>=1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool deleteitem(EmployeeModel model)
+        {
+            connection();
+            string query = "delete from EmployeeDetail where id='" + model.Id + "'";
+            SqlCommand cmd=new SqlCommand(query,con);
+            con.Open();
+            int i=cmd.ExecuteNonQuery();    
+            con.Close();
+            if(i>=1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        
 
     }
+    
 }
