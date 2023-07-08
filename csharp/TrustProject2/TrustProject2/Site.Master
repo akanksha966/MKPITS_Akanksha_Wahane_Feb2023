@@ -50,6 +50,8 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">About</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/productdetails">productdetails</a></li>
+                         <li class="nav-item"><a class="nav-link" runat="server" href="~/vendor">Vendor</a></li>
+
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/departmentsdetails">departmentsdetail</a></li>
                          <li class="nav-item"><a class="nav-link" runat="server" href="~/transactionPurchase">Transaction</a></li>
 

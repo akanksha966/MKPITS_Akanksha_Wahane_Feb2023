@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<p><b>Teacher List</b></p>
+@using AddedMultipleModelInSINGLE
+
+@model dynamic
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Code</th>
+        <th>Name</th>
+    </tr>
+    @foreach (AddedMultipleModelInSINGLE.Models.Teacher teacher in Model.teachers)
+    {
+        <tr>
+            <td>@teacher.TeacherId</td>
+            <td>@teacher.Code</td>
+            <td>@teacher.TeacherName</td>
+        </tr>
+    }
+</table>
+
+<p><b>Student List</b></p>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Code</th>
+
+        <th>Name</th>
+        <th>Enrollment No</th>
+    </tr>
+    @foreach (AddedMultipleModelInSINGLE.Models.Student student in Model.student)
+    {
+        <tr>
+            <td>@student.StudentId</td>
+            <td>@student.Code</td>
+            <td>@student.Name</td>
+            <td>@student.EnrollmentNo</td>
+        </tr>
+    }
+</table>
