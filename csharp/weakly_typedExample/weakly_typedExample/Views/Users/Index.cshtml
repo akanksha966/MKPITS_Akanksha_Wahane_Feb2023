@@ -1,0 +1,42 @@
+﻿
+
+<h3><b>Forms: Weakly Typed</b></h3>
+
+<form action="form1" method="post">
+    <table>
+        <tr>
+            <td>Enter ID: </td>
+            <td><input type="text" name="txtId" /></td>
+        </tr>
+        <tr>
+            <td>Enter Name: </td>
+            <td><input type="text" name="txtName" /></td>
+        </tr>
+        <tr>
+            <td>Gender: </td>
+            <td><input type="checkbox" name="chkgender" /></td>
+        </tr>
+
+
+
+
+        <tr>
+
+            <td colspan="2"><input type="submit" value="Submit Form" /></td>
+
+
+
+
+        </tr>
+    </table>
+</form>
+<b>ID is:</b>@ViewBag.txtId
+<br />
+<b>Name is:</b>@ViewBag.txtName
+<br />
+
+<b>Gender is:</b>@ViewBag.gender
+<br />
+
+
+
