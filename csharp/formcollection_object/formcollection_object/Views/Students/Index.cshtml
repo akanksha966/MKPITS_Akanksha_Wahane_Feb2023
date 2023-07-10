@@ -1,0 +1,30 @@
+﻿
+
+
+<h3><b>Forms - Form Collection Objects</b></h3>
+@using (Html.BeginForm("submit", "Students", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>Enter ID: </td>
+            <td>@Html.TextBox("Id")</td>
+        </tr>
+        <tr>
+            <td>Enter Name: </td>
+            <td>@Html.TextBox("Name")</td>
+        </tr>
+        <tr>
+            <td>gender: </td>
+            <td>@Html.CheckBox("gender", false)</td>
+
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="ok"></td>
+        </tr>
+    </table>
+}
+<h4 style="color:purple"/>
+    ID: @ViewBag.id<br />
+    Name: @ViewBag.name<br />
+    gender: @ViewBag.gender
+    
