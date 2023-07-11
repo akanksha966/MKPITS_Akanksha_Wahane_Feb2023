@@ -96,6 +96,7 @@ namespace fendahl
             {
                 TGST = IGST;
             }
+
             textBox3.Text = CGST.ToString();
             textBox4.Text = SGST.ToString();
             textBox5.Text = TGST.ToString();//
