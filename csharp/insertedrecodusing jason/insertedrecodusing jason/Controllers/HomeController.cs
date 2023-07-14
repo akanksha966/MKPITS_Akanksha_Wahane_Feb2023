@@ -86,12 +86,12 @@ namespace insertedrecodusing_jason.Controllers
         private void DeleteDetails(EmpModel obj)
         {
             connection();
-            SqlCommand com = new SqlCommand("DeleteEmp2", con);
+            SqlCommand com = new SqlCommand("DeleteEmp1", con);
             //addemp is the name of stored procedure
             com.CommandType = CommandType.StoredProcedure;
             com.Parameters.AddWithValue("@Name", obj.Name);
-            //com.Parameters.AddWithValue("@City", obj.City);
-            //com.Parameters.AddWithValue("@Address", obj.Address);
+            com.Parameters.AddWithValue("@City", obj.City);
+            com.Parameters.AddWithValue("@Address", obj.Address);
             con.Open();
             com.ExecuteNonQuery();
             con.Close();

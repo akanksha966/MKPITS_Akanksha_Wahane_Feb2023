@@ -247,13 +247,16 @@
             // 
             this.textBox5.Location = new System.Drawing.Point(77, 88);
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(100, 25);
             this.textBox5.TabIndex = 5;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(77, 56);
             this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(100, 25);
             this.textBox4.TabIndex = 3;
             // 
@@ -261,6 +264,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(77, 24);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(100, 25);
             this.textBox3.TabIndex = 1;
             // 
@@ -356,10 +360,13 @@
             // 
             // textBox10
             // 
+            this.textBox10.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox10.Location = new System.Drawing.Point(128, 138);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(159, 25);
             this.textBox10.TabIndex = 9;
+            this.textBox10.Text = "0";
+            this.textBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox10_KeyPress);
             // 
             // textBox9
             // 

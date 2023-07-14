@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace FendhalM1
 {
@@ -15,6 +16,7 @@ namespace FendhalM1
         public ProductStoreForm1()
         {
             InitializeComponent();
+            dateTimePicker1.Value = DateTime.Now;   
             dateTimePicker1.MinDate = DateTime.Now;
            
         }
@@ -26,6 +28,9 @@ namespace FendhalM1
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            DataSet Ds = ProductStore.GetTableProductCategory();
+            comboBox1.DataSource = Ds.Tables["TableProductCategory"];
+            comboBox1.DisplayMember = "Product_Type_Name";
 
         }
 
@@ -46,7 +51,22 @@ namespace FendhalM1
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
         {
+          if(!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar)) { 
+
+                e.Handled = true;
+            }
             
+        }
+
+        private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(!char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+            { e.Handled = true;}
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

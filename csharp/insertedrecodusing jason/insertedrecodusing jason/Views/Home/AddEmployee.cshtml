@@ -87,7 +87,10 @@
                     type: "POST",
                     url: "/Home/DeleteEmployee", // Controller/View
                     data: { //Passing data
-                        Name: $("#txtName").val()
+                        Name: $("#txtName").val(),
+                        City: $("#txtCity").val(),
+                        Address: $("#txtAddress").val()
+
                         
                     },
                     success: alert("record deleted")
