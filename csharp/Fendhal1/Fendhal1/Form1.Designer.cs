@@ -108,6 +108,7 @@
             this.radioButton2.TabIndex = 4;
             this.radioButton2.Text = "NRI";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -121,6 +122,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Indian";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // textBox1
             // 
@@ -329,6 +331,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox12
             // 
@@ -352,6 +355,7 @@
             this.textBox10.Size = new System.Drawing.Size(159, 25);
             this.textBox10.TabIndex = 9;
             this.textBox10.Text = "0";
+            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // textBox9
             // 

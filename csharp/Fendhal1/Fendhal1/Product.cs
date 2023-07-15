@@ -56,6 +56,17 @@ namespace Fendhal1
 
         }
 
+           public static DataSet GetInvoiceDetails(string Product_Type_Name)
+        {
+             SqlConnection Con = GetConnection();
+            string query = " select p.CGST,p.SGST,p.IGST from TableProductGSTDetailss p inner join TableProductCategory s on  p.Product_Gst_ID=s.Product_Gst_ID where Product_Type_Name=@Product_Type_Name";
+            DataSet Ds3= new DataSet();
+            SqlDataAdapter Adapter = new SqlDataAdapter(query ,Con);
+            Adapter.SelectCommand.Parameters.AddWithValue("@Product_Type_Name", Product_Type_Name);
+            Adapter.Fill(Ds3, "TableProductGSTDetailss");
+            return Ds3;
+        }
+
 
     }
 }
