@@ -67,6 +67,15 @@ namespace Fendhal1
             return Ds3;
         }
 
+        public static string SaveTableInvoiceDetails(string Customer_Name,string Customer_Contact, int Product_Category_ID,int Product_ID, int Residential_Type_ID, DateTime Invoice_Date,decimal Quantity,decimal Price,decimal CGST,decimal SGST,decimal IGST,decimal CGST_Value,decimal SGST_Value,decimal IGST_Value,decimal Total_Amount)
+        {
+            string query = "insert into TableInvoiceDetailss values(@customername,@customercontact,@Productcategoryid,@producrid,@Residential_Type_ID,@Invoice_Date,@Quantity,@Price,@cgst,@sgst,@igst,@ CGST_Value,@SGST_Value,@IGST_Value,@Total_Amount)";
+            SqlConnection Con = GetConnection();    
+            SqlCommand cmd=new SqlCommand(query,Con);
+            string Result = null;
+
+        }
+
 
     }
 }

@@ -29,7 +29,8 @@ namespace Fendhal1
         {
             DataSet Ds = Product.GetTableProductCategory();
             comboBox1.DataSource = Ds.Tables[0];
-            comboBox1.DisplayMember = "Product_Type_Name";   
+            comboBox1.DisplayMember = "Product_Type_Name";
+            comboBox1.ValueMember = "Product_Category_ID";
         }
         int CGST = 0;
         int SGST = 0;
@@ -43,6 +44,7 @@ namespace Fendhal1
             DataSet Ds = Product.GetProductName(comboBox1.Text);
             comboBox2.DataSource= Ds.Tables[0]; 
             comboBox2.DisplayMember = "Product_Name";
+            comboBox2.ValueMember = "Product_ID";
 
 
 
