@@ -45,5 +45,58 @@ namespace CrudOperation.Controllers
 
                 
         }
+        [HttpGet]
+        public ActionResult Edit(int Id)
+        {
+            ItemDbHandler ha= new ItemDbHandler();  
+            return View(ha.GetItems().Find(model=>model.ID==Id));
+            
+        }
+        [HttpPost]
+        public ActionResult Edit(ItemModel model)
+        {
+            try
+            {
+
+
+                ItemDbHandler ha = new ItemDbHandler();
+                ha.UpdateinsertModel(model);
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                return View(ex.Message);
+            }
+        }
+
+        [HttpGet]
+        public ActionResult Delete(int Id)
+        {
+            ItemDbHandler ha=new ItemDbHandler();
+           return View(ha.GetItems().Find(model=>model.ID==Id));   
+        }
+        [HttpPost]
+        public ActionResult Delete(ItemModel model)
+        {
+            try
+            {
+
+
+                ItemDbHandler ha = new ItemDbHandler();
+                ha.DeleteinsertModel(model);
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                return View(ex.Message);
+            }
+        }
+        public ActionResult Details(int id)
+        {
+            ItemDbHandler itemDbHandler = new ItemDbHandler();
+            return View (itemDbHandler.GetItems().Find(model=>model.ID==model.ID)); 
+
+          
+        }
     }
 }

@@ -35,6 +35,43 @@ namespace CrudOperation.Models
             }
 
         }
+        public bool UpdateinsertModel(ItemModel item) { 
+
+            connction();
+            string query = "update ItemList set Name = '" + item.Name + "', Category='" + item.Category + "', Price='" + item.Price + "' where Id= '" + item.ID + "' ";
+            SqlCommand cmd=new SqlCommand(query, con);
+            con.Open();
+            int i=cmd.ExecuteNonQuery();
+            con.Close();
+            if(i>=0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool DeleteinsertModel(ItemModel item) 
+        {  
+            
+            connction();
+            string query = "delete from ItemList where Id='" + item.ID + "'";
+            SqlCommand cmd= new SqlCommand(query, con);
+            SqlDataAdapter sql = new SqlDataAdapter(cmd);
+            con.Open();
+            int i = cmd.ExecuteNonQuery();
+            con.Close();
+            if(i>=0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
         public List<ItemModel> GetItems()
         {

@@ -60,7 +60,7 @@ namespace insertedrecodusing_jason.Controllers
 
             return View();
         }
-        [HttpPost]
+       
         private void UpdateDetails(EmpModel obj)
         {
             connection();
@@ -75,27 +75,47 @@ namespace insertedrecodusing_jason.Controllers
             con.Close();
 
         }
-        [HttpPost]
-        public ActionResult DeleteeEmployee(EmpModel obj)
-        {
-            DeleteDetails(obj);
+        //[HttpPost]
+        //public ActionResult DeleteeEmployee(EmpModel obj)
+        //{
+        //    DeleteDetails(obj);
 
+        //    return View();
+        //}
+
+        //private void DeleteDetails(EmpModel obj)
+        //{
+        //    connection();
+        //    SqlCommand com = new SqlCommand("Deleteemployee", con);
+        //    //addemp is the name of stored procedure
+        //    com.CommandType = CommandType.StoredProcedure;
+        //    com.Parameters.AddWithValue("@Name", obj.Name);
+        //    com.Parameters.AddWithValue("@City", obj.City);
+        //    com.Parameters.AddWithValue("@Address", obj.Address);
+        //    con.Open();
+        //    com.ExecuteNonQuery();
+        //    con.Close();
+
+        //}
+
+        [HttpPost]
+        public ActionResult DeleteEmployee(EmpModel emp)
+        {
+            DeleteDetails(emp);
             return View();
         }
-        [HttpPost]
-        private void DeleteDetails(EmpModel obj)
+
+        public void DeleteDetails(EmpModel emp)
         {
             connection();
-            SqlCommand com = new SqlCommand("DeleteEmp1", con);
-            //addemp is the name of stored procedure
-            com.CommandType = CommandType.StoredProcedure;
-            com.Parameters.AddWithValue("@Name", obj.Name);
-            com.Parameters.AddWithValue("@City", obj.City);
-            com.Parameters.AddWithValue("@Address", obj.Address);
+            SqlCommand cmd = new SqlCommand("Deleteemployee", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Name", emp.Name);
+            cmd.Parameters.AddWithValue("@Address", emp.Address);
+            cmd.Parameters.AddWithValue("@City", emp.City);
             con.Open();
-            com.ExecuteNonQuery();
+            cmd.ExecuteNonQuery();
             con.Close();
-
         }
 
     }

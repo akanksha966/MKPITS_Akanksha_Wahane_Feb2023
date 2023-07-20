@@ -39,6 +39,7 @@
 
 <script>
     $(document).ready(function () {
+        
         $("#btnSave").click(function () {
 
             $.ajax(
@@ -56,10 +57,10 @@
 
 
         });
-    });
+   
 
 
-    $(document).ready(function () {
+  
         $("#btnUpdate").click(function () {
 
             $.ajax(
@@ -77,30 +78,48 @@
 
 
         });
-    });
+   
 
-    $(document).ready(function () {
-        $("#btnDelete").click(function () {
+    //$(document).ready(function () {
+    //    $("#btnDelete").click(function () {
 
+    //        $.ajax(
+    //            {
+    //                type: "POST",
+    //                url: "/Home/DeleteEmployee", // Controller/View
+    //                data: { //Passing data
+    //                    Name: $("#txtName").val(),
+    //                    City: $("#txtCity").val(),
+    //                    Address: $("#txtAddress").val()
+
+
+    //                },
+    //                success: alert("record deleted")
+
+    //            });
+
+
+    //    });
+    //});
+
+        $('#btnDelete').click(function () {
             $.ajax(
                 {
-                    type: "POST",
-                    url: "/Home/DeleteEmployee", // Controller/View
-                    data: { //Passing data
-                        Name: $("#txtName").val(),
-                        City: $("#txtCity").val(),
-                        Address: $("#txtAddress").val()
-
-                        
-                    },
-                    success: alert("record deleted")
-
-                });
-
+                type: "POST",
+                url: "Home/DeleteEmployee",
+                data: {
+                    Name: $("#txtName").val(),
+                    Address: $("#txtAddress").val(),
+                    City: $("#txtCity").val()
+                },
+                success: alert("record Deleted")
+            });
 
         });
-    });
-
+         
+    });    
+  
+  
 
 
 
