@@ -21,15 +21,47 @@ namespace collectionex2
             {
                 Console.WriteLine(item);
             }
-            Console.ReadLine();
 
             ////////sorting code////////
              list.Sort();
-            Console.WriteLine("array list collection withut sorting");
+            Console.WriteLine("array list collection using sorting");
             foreach(var item in list)
             {
                 Console.WriteLine(item);
             }
+            ////////Insert code////////
+
+
+            list.Insert(2, "kalpana");
+            Console.WriteLine("===========");
+
+            Console.WriteLine("insert record");
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+            ////////Remove code////////
+
+            list.Remove("kalpana");
+            Console.WriteLine("**********");
+
+            Console.WriteLine("insert record");
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+
+            ////////particular single variable code////////
+            list.RemoveAt(0);
+            Console.WriteLine("**********");
+
+            Console.WriteLine("particular record deleted");
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
+
         }
     }
 }
