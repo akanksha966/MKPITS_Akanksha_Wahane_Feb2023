@@ -1,10 +1,13 @@
+create database FendhalM
+
+
 create table TableProductGSTDetailss(Product_Gst_ID int primary key,
 Gst_Detail_Name varchar(500),CGST decimal(18,0),SGST decimal(18,0),IGST decimal(18,0))
 insert into TableProductGSTDetailss values(601,'AC and Fridge',14,14,14)
 insert into TableProductGSTDetailss values(602,'Computers',9,9,9)
 insert into TableProductGSTDetailss values(603,'Printers',9,9,9)
 insert into TableProductGSTDetailss values(604,'Mobiles',6,6,6)
-
+select p.CGST,p.SGST,p.IGST from TableProductGSTDetailss p inner join TableProductCategory s on  p.Product_Gst_ID=s.Product_Gst_ID where Product_Type_Name='Computers'
 select * from TableProductGSTDetailss
 -----------2nd table
 create table TableProductCategory(Product_Category_ID int primary key,Product_Type_Name varchar(500),Product_Gst_ID int,
@@ -14,6 +17,7 @@ insert into TableProductCategory values(1002,'Mobiles',604)
 insert into TableProductCategory values(1003,'Printers',603)
 insert into TableProductCategory values(1004,'AC and Fridge',602)
 select * from TableProductCategory
+
 
 ------3rd table---
 
@@ -26,9 +30,8 @@ insert into TableProduct values(213,'IFB',1004,20000)
 insert into TableProduct values(214,'LG',1004,30000)
 insert into TableProduct values(215,'Sony',1001,56000)
 
-
-select * from TableProduct
-
+select ProductID,Product_Name from TableProduct p inner join TableProductCategory s on p. Product_Category_ID =s.Product_Category_ID  where Product_Type_Name='Computers'
+select  ProductPrice  from TableProduct where Product_Name='Apple'
 ----------4th table---
 
 create table TableInvoiceDetailss(Invoice_Details_ID int primary key identity,Customer_Name varchar(500),Customer_Contact varchar(15),
