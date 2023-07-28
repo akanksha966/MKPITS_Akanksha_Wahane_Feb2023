@@ -18,6 +18,8 @@ namespace Shopsite2
             // pid = Request.QueryString["prodid"].ToString();
             if (!Page.IsPostBack)
             {
+                string sid = Session.SessionID.ToString();
+                Session["sessionid"] = sid;
                 binddata();
 
             }
@@ -50,7 +52,7 @@ DataSet ds1 = new DataSet();
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
-
+            Response.Redirect("default.aspx");
         }
     }
 }

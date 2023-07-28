@@ -11,7 +11,7 @@ namespace Shopsite2
 {
 
 
-    public partial class SiteMaster
+    public partial class Site2
     {
 
         /// <summary>

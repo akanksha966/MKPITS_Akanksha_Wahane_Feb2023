@@ -52,7 +52,7 @@ total amount
 
 <td align="center" style="width:20%;">
 <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl='
-<%# "~iImages/" + Eval("prodimage") %>' Height="50px" Width="50px" />
+    <%# "~/images/" + Eval("prodimage") %>' Height="50px" Width="50px" />
 </td>
 <td align="center" style="width:20%;">
 <asp:Label ID="Label5" runat="server" Text='<%# Eval("prodprice") %>' visible="true">
