@@ -1,0 +1,104 @@
+﻿@model WebAppEcart.Models.Item
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<div class="row p-3">
+
+    <div class="col-md-4">
+        <div class="form-group">
+            <b>Category:</b>
+            @Html.DropDownListFor(model => model.CategoryId, new SelectList(Model.CategorySelectListItem, "Value", "Text"), new { @class = "form-control" })
+            <div class="form-group">
+                <b>Category:</b>
+                @Html.DropDownListFor(model => model.CategoryId, new SelectList(Model.CategorySelectListItem, "Value", "Text"), new { @class = "form-control" })
+
+            </div>
+        </div>
+
+    </div>
+
+    <table class="auto-style1">
+        <tr>
+            <td class="auto-style2"><b style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Category</b></td>
+            <td class="auto-style3">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Html.DropDownListFor(model => model.CategoryId, new SelectList(Model.CategorySelectListItem, "Value", "Text"), new { @class = "form-control" })
+
+            </td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <td><b style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Category</b></td>
+            <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Html.DropDownListFor(model => model.CategoryId, new SelectList(Model.CategorySelectListItem, "Value", "Text"), new { @class = "form-control" })
+
+            </td>
+        </tr>
+    </table>
+    <div class="col-md-4">
+
+    </div>
+
+
+</div>
+
+
+            <!--<div class="col-md-4">
+                <div class="form-group">
+                    <b>Category:</b>
+                @Html.TextBoxFor(Model => Model.ItemCode, new { @class = "form-control" })
+
+                </div>
+            </div>
+        </div>-->
+            @*<div class="col-md-4">
+                <div class="form-group">
+                    <b>Category:</b>
+                    @Html.DropDownListFor(model => model.CategoryId, new SelectList(Model.CategorySelectListItem, "Value", "Text"), new { @class = "form-control" })
+
+                </div>
+            </div>
+        </div>*@
+
+    @*<div class="col-md-4">
+        <div class="form-group">
+            <b>ItemCode:</b>
+            @Html.TextBoxFor(Model => Model.ItemCode, new { @class = "form-control" })
+        </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="form-group">
+                <b>ItemName:</b>
+                @Html.TextBoxFor(Model => Model.ItemName, new { @class = "form-control" })
+            </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <b>Description:</b>
+                    @Html.TextBoxFor(Model => Model.Description, new { @class = "form-control" })
+                </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <b>ItemPrice:</b>
+                        @Html.TextBoxFor(Model => Model.ItemPrice, new { @class = "form-control" })
+                    </div>
+                </div>
+
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <b>ItemImage:</b>
+                            @Html.TextBoxFor(Model => Model.ImagePath, new {type="file" ,@class = "form-control" })
+                        </div>
+
+                    </div>
+
+           </div>*@
+
+
+

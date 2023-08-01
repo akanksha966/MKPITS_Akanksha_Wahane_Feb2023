@@ -1,0 +1,37 @@
+﻿@model OnlineShopCart.Models.Item
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="container">
+<div class="row">
+
+    <div class="col-md-4">
+            Category:
+            @Html.DropDownListFor(model => model.CategoryId, new SelectList(Model.CategorySelectListItem, "Value", "Text"), new { @class = "form-control" })
+
+        </div>
+   
+
+    <div class="col-md-4">
+            ItemCode:
+            @Html.TextBoxFor(Model => Model.ItemCode, new { @class = "form-control" })
+
+        </div>
+    
+
+    <div class="col-md-4">
+            ItemName:
+            @Html.TextBoxFor(Model => Model.ItemName, new { @class = "form-control" })
+
+        </div>
+   
+    </div>
+
+
+</div>
+
+
+

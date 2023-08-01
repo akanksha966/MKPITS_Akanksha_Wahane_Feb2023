@@ -39,7 +39,7 @@
                     <div class="mb-3">
 
                     <img src="../../Assets/Images/book2.jpg" height="20"width="20" />
-                <a href="Login.aspx"><label>Books</label></a>
+                <a href="books.aspx"><label>Books</label></a>
 
                 </div>
 
@@ -73,7 +73,7 @@
                 <div class="mb-3">
 
                     <img src="../../Assets/Images/book2.jpg" height="20"width="20" />
-                <a href="#"><label>Logout</label></a>
+                <a href="books.aspx"><label>Logout</label></a>
 
                 </div>
                 

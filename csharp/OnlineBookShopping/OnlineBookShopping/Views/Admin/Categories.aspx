@@ -13,7 +13,8 @@
                   <div class="mb-3" >
                      
                       <label for=""class="form-label text-success">Category Name</label>
-                   <input type="text" placeholder="Title" autocomplete="off" class="form-control"runat="server" id="catname" />
+                  <input type="text" placeholder="Title" autocomplete="off" class="form-control" runat="server" id="Text1"/>
+
 
 
                       
@@ -32,7 +33,7 @@
                 
                  <div class="row">
                      <div class="col d-grid"><asp:Button Text="Update" runat="server" ID="Editbutton" class="btn-warning btn-block btn" /></div>
-                     <div class="col d-grid"><asp:Button Text="Save" runat="server" ID="Savebotton" class="btn-success btn-block btn" OnClick="Unnamed2_Click" /></div>
+                     <div class="col d-grid"><asp:Button Text="Save" runat="server" ID="Savebotton" class="btn-success btn-block btn"/></div>
                       <div class="col d-grid"> <asp:Button Text="Delete" runat="server" ID="Updatebutton" class="btn-danger btn-block btn" /></div>
                   </div>
                  
@@ -43,7 +44,7 @@
                 
             
                 
-              <div class="col-md-8">
+             <%-- <div class="col-md-8">
                      <asp:GridView ID="CategoriesLists" runat="server" class="table" CellPadding="4" ForeColor="#333333" GridLines="None" AutoGenerateSelectButton="True" OnSelectedIndexChanged="AuthorsLists_SelectedIndexChanged">
                    <AlternatingRowStyle BackColor="White" />
                    <EditRowStyle BackColor="#7C6F57" />
@@ -57,7 +58,7 @@
                    <SortedDescendingCellStyle BackColor="#D4DFE1" />
                    <SortedDescendingHeaderStyle BackColor="#15524A" />
                   </asp:GridView>
-             </div>
+             </div>--%>
              </div>
              </div>
              

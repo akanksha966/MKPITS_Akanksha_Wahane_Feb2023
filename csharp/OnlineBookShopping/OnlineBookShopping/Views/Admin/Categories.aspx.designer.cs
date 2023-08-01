@@ -15,6 +15,15 @@ namespace OnlineBookShopping.Views.Admin
     {
 
         /// <summary>
+        /// Text1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Text1;
+
+        /// <summary>
         /// catdescription control.
         /// </summary>
         /// <remarks>
@@ -49,14 +58,5 @@ namespace OnlineBookShopping.Views.Admin
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Updatebutton;
-
-        /// <summary>
-        /// CategoriesLists control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView CategoriesLists;
     }
 }
