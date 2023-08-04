@@ -43,6 +43,16 @@ namespace RestaurantWebApplication3.Controllers
             return Json(UnitPrice, JsonRequestBehavior.AllowGet);
         }
 
+        [HttpPost]
+        public JsonResult Index(OrderViewModel objOrderViewModel)
+        {
+
+
+
+            OrderRepository objorderRepository = new OrderRepository();
+            objorderRepository.AddOrder(objOrderViewModel);
+            return Json(" Your Order Has Been Successfully Placed....", JsonRequestBehavior.AllowGet);
+        }
 
     }
 }

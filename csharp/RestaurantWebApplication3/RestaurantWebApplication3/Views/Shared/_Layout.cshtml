@@ -1,45 +1,50 @@
 ﻿﻿
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="~/Scripts/modernizr-3.7.0.js"></script>
-    <link href="~/Content/bootstrap-grid.css" rel="stylesheet" />
-    <link href="~/Content/bootstrap-grid.rtl.min.css" rel="stylesheet" />
-</head>
-<body>
-    
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - My ASP.NET Application</title>
+        <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="~/Scripts/modernizr-3.7.0.js"></script>
+        <link href="~/Content/bootstrap-grid.css" rel="stylesheet" />
+        <link href="~/Content/bootstrap-grid.rtl.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-black w-100 p-3" style="margin-bottom:40px;">
+            <h2 class="text-warning bg-dark"><b>RestaurantApplication:</b></h2>
+
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Restaurant Application", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                 </ul>
             </div>
-        </div>
-    </div>
-       
+        </nav>
+           
 
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My Restaurant Application</p>
-        </footer>
-    </div>
 
-    <script src="~/Scripts/jquery-3.7.0.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
+            <div class="container body-content">
+                @RenderBody()
+                <br />
+                <br />
+                <footer>
+                    <p>&copy; @DateTime.Now.Year<b> - My Restaurant Application</b></p>
+                </footer>
+            </div>
+
+            <script src="~/Scripts/jquery-3.7.0.js"></script>
+            <script src="~/Scripts/jquery-3.7.0.min.js"></script>
+            <script src="~/Scripts/bootstrap.js"></script>
+            <script src="~/Scripts/bootstrap.bundle.js"></script>
+
+            <script src="~/Scripts/bootstrap.min.js"></script>
+
 </body>
-</html>
+    </html>
+
