@@ -101,7 +101,7 @@ namespace EcartApplication.Controllers
                     }
                     catch (Exception e)
                     {
-                        path = " -1 ";
+                        path = "~/ Content / upload";
                     }
                 }
 
